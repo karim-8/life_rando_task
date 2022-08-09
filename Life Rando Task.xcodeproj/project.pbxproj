@@ -30,6 +30,12 @@
 		8AF3104E28A2F9A0003B6730 /* HomeListScreen+UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3104D28A2F9A0003B6730 /* HomeListScreen+UISearchBar.swift */; };
 		8AF3105028A2FA7D003B6730 /* HomeListScreen+Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3104F28A2FA7D003B6730 /* HomeListScreen+Filter.swift */; };
 		8AF3105228A2FC6D003B6730 /* FilterScreen+UIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3105128A2FC6D003B6730 /* FilterScreen+UIPickerView.swift */; };
+		8AF3105428A2FD1E003B6730 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3105328A2FD1E003B6730 /* sample.json */; };
+		8AF3105628A2FD38003B6730 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3105528A2FD38003B6730 /* FileReader.swift */; };
+		8AF3105828A3042C003B6730 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3105728A3042C003B6730 /* DataFetcher.swift */; };
+		8AF3105A28A30434003B6730 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3105928A30434003B6730 /* Extensions.swift */; };
+		8AF3105D28A30448003B6730 /* BaseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3105B28A30447003B6730 /* BaseDataModel.swift */; };
+		8AF3105E28A30448003B6730 /* RestaurantDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3105C28A30448003B6730 /* RestaurantDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +83,12 @@
 		8AF3104D28A2F9A0003B6730 /* HomeListScreen+UISearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeListScreen+UISearchBar.swift"; sourceTree = "<group>"; };
 		8AF3104F28A2FA7D003B6730 /* HomeListScreen+Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeListScreen+Filter.swift"; sourceTree = "<group>"; };
 		8AF3105128A2FC6D003B6730 /* FilterScreen+UIPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterScreen+UIPickerView.swift"; sourceTree = "<group>"; };
+		8AF3105328A2FD1E003B6730 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		8AF3105528A2FD38003B6730 /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		8AF3105728A3042C003B6730 /* DataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		8AF3105928A30434003B6730 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8AF3105B28A30447003B6730 /* BaseDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDataModel.swift; sourceTree = "<group>"; };
+		8AF3105C28A30448003B6730 /* RestaurantDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +207,10 @@
 		8AF3102E28A2E413003B6730 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				8AF3105328A2FD1E003B6730 /* sample.json */,
+				8AF3105528A2FD38003B6730 /* FileReader.swift */,
+				8AF3105728A3042C003B6730 /* DataFetcher.swift */,
+				8AF3105928A30434003B6730 /* Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -211,6 +227,8 @@
 		8AF3103028A2E439003B6730 /* Data Models */ = {
 			isa = PBXGroup;
 			children = (
+				8AF3105B28A30447003B6730 /* BaseDataModel.swift */,
+				8AF3105C28A30448003B6730 /* RestaurantDetails.swift */,
 			);
 			path = "Data Models";
 			sourceTree = "<group>";
@@ -377,6 +395,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF3105428A2FD1E003B6730 /* sample.json in Resources */,
 				8AF3104728A2F8C6003B6730 /* RestaurantCell.xib in Resources */,
 				8AF3100728A2E387003B6730 /* LaunchScreen.storyboard in Resources */,
 				8AF3100428A2E387003B6730 /* Assets.xcassets in Resources */,
@@ -405,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF3105D28A30448003B6730 /* BaseDataModel.swift in Sources */,
 				8AF3104828A2F8C6003B6730 /* RestaurantCell.swift in Sources */,
 				8AF3103628A2F1B8003B6730 /* SplashScreenViewModel.swift in Sources */,
 				8AF3105228A2FC6D003B6730 /* FilterScreen+UIPickerView.swift in Sources */,
@@ -412,13 +432,17 @@
 				8AF3105028A2FA7D003B6730 /* HomeListScreen+Filter.swift in Sources */,
 				8AF30FFF28A2E385003B6730 /* SplashScreeenViewController.swift in Sources */,
 				8AF3104128A2F7C5003B6730 /* FilterViewModel.swift in Sources */,
+				8AF3105A28A30434003B6730 /* Extensions.swift in Sources */,
 				8AF30FFB28A2E385003B6730 /* AppDelegate.swift in Sources */,
 				8AF3103828A2F1CF003B6730 /* SplashScreenCoordinator.swift in Sources */,
+				8AF3105E28A30448003B6730 /* RestaurantDetails.swift in Sources */,
+				8AF3105628A2FD38003B6730 /* FileReader.swift in Sources */,
 				8AF3104C28A2F982003B6730 /* HomeListScreen+UITableView.swift in Sources */,
 				8AF3103A28A2F513003B6730 /* HomeListViewModel.swift in Sources */,
 				8AF3104328A2F7F3003B6730 /* FilterCoordinator.swift in Sources */,
 				8AF3103C28A2F56C003B6730 /* HomeListCoordinator.swift in Sources */,
 				8AF3103F28A2F7AA003B6730 /* FilterHomeScreen.swift in Sources */,
+				8AF3105828A3042C003B6730 /* DataFetcher.swift in Sources */,
 				8AF30FFD28A2E385003B6730 /* SceneDelegate.swift in Sources */,
 				8AF3103428A2E818003B6730 /* HomeListViewController.swift in Sources */,
 			);
