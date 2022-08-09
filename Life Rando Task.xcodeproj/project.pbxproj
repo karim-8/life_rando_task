@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8AF30FFB28A2E385003B6730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF30FFA28A2E385003B6730 /* AppDelegate.swift */; };
 		8AF30FFD28A2E385003B6730 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF30FFC28A2E385003B6730 /* SceneDelegate.swift */; };
-		8AF30FFF28A2E385003B6730 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF30FFE28A2E385003B6730 /* SplashViewController.swift */; };
+		8AF30FFF28A2E385003B6730 /* SplashScreeenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF30FFE28A2E385003B6730 /* SplashScreeenViewController.swift */; };
 		8AF3100228A2E385003B6730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3100028A2E385003B6730 /* Main.storyboard */; };
 		8AF3100428A2E387003B6730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3100328A2E387003B6730 /* Assets.xcassets */; };
 		8AF3100728A2E387003B6730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3100528A2E387003B6730 /* LaunchScreen.storyboard */; };
@@ -17,6 +17,8 @@
 		8AF3101C28A2E388003B6730 /* Life_Rando_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3101B28A2E388003B6730 /* Life_Rando_TaskUITests.swift */; };
 		8AF3101E28A2E388003B6730 /* Life_Rando_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3101D28A2E388003B6730 /* Life_Rando_TaskUITestsLaunchTests.swift */; };
 		8AF3103428A2E818003B6730 /* ListHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103328A2E818003B6730 /* ListHomeViewController.swift */; };
+		8AF3103628A2F1B8003B6730 /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103528A2F1B8003B6730 /* SplashScreenViewModel.swift */; };
+		8AF3103828A2F1CF003B6730 /* SplashScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103728A2F1CF003B6730 /* SplashScreenCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 		8AF30FF728A2E385003B6730 /* Life Rando Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Rando Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF30FFA28A2E385003B6730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF30FFC28A2E385003B6730 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8AF30FFE28A2E385003B6730 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		8AF30FFE28A2E385003B6730 /* SplashScreeenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreeenViewController.swift; sourceTree = "<group>"; };
 		8AF3100128A2E385003B6730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AF3100328A2E387003B6730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AF3100628A2E387003B6730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		8AF3101B28A2E388003B6730 /* Life_Rando_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Rando_TaskUITests.swift; sourceTree = "<group>"; };
 		8AF3101D28A2E388003B6730 /* Life_Rando_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Rando_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8AF3103328A2E818003B6730 /* ListHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHomeViewController.swift; sourceTree = "<group>"; };
+		8AF3103528A2F1B8003B6730 /* SplashScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewModel.swift; sourceTree = "<group>"; };
+		8AF3103728A2F1CF003B6730 /* SplashScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +193,9 @@
 		8AF3103128A2E44B003B6730 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				8AF30FFE28A2E385003B6730 /* SplashViewController.swift */,
+				8AF30FFE28A2E385003B6730 /* SplashScreeenViewController.swift */,
+				8AF3103528A2F1B8003B6730 /* SplashScreenViewModel.swift */,
+				8AF3103728A2F1CF003B6730 /* SplashScreenCoordinator.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -333,8 +339,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AF30FFF28A2E385003B6730 /* SplashViewController.swift in Sources */,
+				8AF3103628A2F1B8003B6730 /* SplashScreenViewModel.swift in Sources */,
+				8AF30FFF28A2E385003B6730 /* SplashScreeenViewController.swift in Sources */,
 				8AF30FFB28A2E385003B6730 /* AppDelegate.swift in Sources */,
+				8AF3103828A2F1CF003B6730 /* SplashScreenCoordinator.swift in Sources */,
 				8AF30FFD28A2E385003B6730 /* SceneDelegate.swift in Sources */,
 				8AF3103428A2E818003B6730 /* ListHomeViewController.swift in Sources */,
 			);
@@ -516,7 +524,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Life Rando Task/Info.plist";
+				INFOPLIST_FILE = "Life Rando Task/Configuration/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -543,7 +551,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Life Rando Task/Info.plist";
+				INFOPLIST_FILE = "Life Rando Task/Configuration/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
