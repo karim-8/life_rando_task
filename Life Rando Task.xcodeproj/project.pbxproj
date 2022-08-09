@@ -16,9 +16,11 @@
 		8AF3101228A2E387003B6730 /* Life_Rando_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3101128A2E387003B6730 /* Life_Rando_TaskTests.swift */; };
 		8AF3101C28A2E388003B6730 /* Life_Rando_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3101B28A2E388003B6730 /* Life_Rando_TaskUITests.swift */; };
 		8AF3101E28A2E388003B6730 /* Life_Rando_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3101D28A2E388003B6730 /* Life_Rando_TaskUITestsLaunchTests.swift */; };
-		8AF3103428A2E818003B6730 /* ListHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103328A2E818003B6730 /* ListHomeViewController.swift */; };
+		8AF3103428A2E818003B6730 /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103328A2E818003B6730 /* HomeListViewController.swift */; };
 		8AF3103628A2F1B8003B6730 /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103528A2F1B8003B6730 /* SplashScreenViewModel.swift */; };
 		8AF3103828A2F1CF003B6730 /* SplashScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103728A2F1CF003B6730 /* SplashScreenCoordinator.swift */; };
+		8AF3103A28A2F513003B6730 /* HomeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103928A2F513003B6730 /* HomeListViewModel.swift */; };
+		8AF3103C28A2F56C003B6730 /* HomeListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103B28A2F56C003B6730 /* HomeListCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +54,11 @@
 		8AF3101728A2E388003B6730 /* Life Rando TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life Rando TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF3101B28A2E388003B6730 /* Life_Rando_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Rando_TaskUITests.swift; sourceTree = "<group>"; };
 		8AF3101D28A2E388003B6730 /* Life_Rando_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Rando_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		8AF3103328A2E818003B6730 /* ListHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHomeViewController.swift; sourceTree = "<group>"; };
+		8AF3103328A2E818003B6730 /* HomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewController.swift; sourceTree = "<group>"; };
 		8AF3103528A2F1B8003B6730 /* SplashScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewModel.swift; sourceTree = "<group>"; };
 		8AF3103728A2F1CF003B6730 /* SplashScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenCoordinator.swift; sourceTree = "<group>"; };
+		8AF3103928A2F513003B6730 /* HomeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewModel.swift; sourceTree = "<group>"; };
+		8AF3103B28A2F56C003B6730 /* HomeListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,7 +207,9 @@
 		8AF3103228A2E455003B6730 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				8AF3103328A2E818003B6730 /* ListHomeViewController.swift */,
+				8AF3103328A2E818003B6730 /* HomeListViewController.swift */,
+				8AF3103928A2F513003B6730 /* HomeListViewModel.swift */,
+				8AF3103B28A2F56C003B6730 /* HomeListCoordinator.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -343,8 +349,10 @@
 				8AF30FFF28A2E385003B6730 /* SplashScreeenViewController.swift in Sources */,
 				8AF30FFB28A2E385003B6730 /* AppDelegate.swift in Sources */,
 				8AF3103828A2F1CF003B6730 /* SplashScreenCoordinator.swift in Sources */,
+				8AF3103A28A2F513003B6730 /* HomeListViewModel.swift in Sources */,
+				8AF3103C28A2F56C003B6730 /* HomeListCoordinator.swift in Sources */,
 				8AF30FFD28A2E385003B6730 /* SceneDelegate.swift in Sources */,
-				8AF3103428A2E818003B6730 /* ListHomeViewController.swift in Sources */,
+				8AF3103428A2E818003B6730 /* HomeListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

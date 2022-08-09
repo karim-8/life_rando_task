@@ -20,11 +20,8 @@ class SplashScreenCoordinator: CoordinatorProtocol {
     func navigateTo(view: UIViewController) {
         let viewModel: ListHomeViewModel = ListHomeViewModel(coordinator: homeCoordinator)
         
-        
         let homeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "home") as? ListHomeScreen
-        
         homeViewController?.viewModel =  viewModel
-        
         
         if let vc = homeViewController {
             let navigationController = UINavigationController(rootViewController:  vc)
