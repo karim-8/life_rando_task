@@ -1,0 +1,6 @@
+framework module Pods_Life_Rando_Task {
+  umbrella header "Pods-Life Rando Task-umbrella.h"
+
+  export *
+  module * { export * }
+}

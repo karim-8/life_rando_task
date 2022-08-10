@@ -7,35 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A0A447E315966B8CDACBA0 /* Pods_Life_Rando_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2095FAD12C311FC74236EF2 /* Pods_Life_Rando_Task.framework */; };
+		205761D87DBFBB361E705975 /* Pods_Life_Rando_Task_Life_Rando_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8A170360FE8FCF0119A0D7 /* Pods_Life_Rando_Task_Life_Rando_TaskUITests.framework */; };
+		497303180D46B0716C0C1985 /* Pods_Life_Rando_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E807E00BD45F5BD65B1413A /* Pods_Life_Rando_TaskTests.framework */; };
+		8A81BF4A28A39AF40062BD63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A81BF4928A39AF40062BD63 /* Main.storyboard */; };
 		8AF30FFB28A2E385003B6730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF30FFA28A2E385003B6730 /* AppDelegate.swift */; };
 		8AF30FFD28A2E385003B6730 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF30FFC28A2E385003B6730 /* SceneDelegate.swift */; };
 		8AF30FFF28A2E385003B6730 /* SplashScreeenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF30FFE28A2E385003B6730 /* SplashScreeenViewController.swift */; };
-		8AF3100228A2E385003B6730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3100028A2E385003B6730 /* Main.storyboard */; };
-		8AF3100428A2E387003B6730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3100328A2E387003B6730 /* Assets.xcassets */; };
-		8AF3100728A2E387003B6730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3100528A2E387003B6730 /* LaunchScreen.storyboard */; };
 		8AF3101228A2E387003B6730 /* Life_Rando_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3101128A2E387003B6730 /* Life_Rando_TaskTests.swift */; };
 		8AF3101C28A2E388003B6730 /* Life_Rando_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3101B28A2E388003B6730 /* Life_Rando_TaskUITests.swift */; };
 		8AF3101E28A2E388003B6730 /* Life_Rando_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3101D28A2E388003B6730 /* Life_Rando_TaskUITestsLaunchTests.swift */; };
-		8AF3103428A2E818003B6730 /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103328A2E818003B6730 /* HomeListViewController.swift */; };
 		8AF3103628A2F1B8003B6730 /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103528A2F1B8003B6730 /* SplashScreenViewModel.swift */; };
 		8AF3103828A2F1CF003B6730 /* SplashScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103728A2F1CF003B6730 /* SplashScreenCoordinator.swift */; };
-		8AF3103A28A2F513003B6730 /* HomeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103928A2F513003B6730 /* HomeListViewModel.swift */; };
-		8AF3103C28A2F56C003B6730 /* HomeListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103B28A2F56C003B6730 /* HomeListCoordinator.swift */; };
-		8AF3103F28A2F7AA003B6730 /* FilterHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3103E28A2F7AA003B6730 /* FilterHomeScreen.swift */; };
-		8AF3104128A2F7C5003B6730 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3104028A2F7C5003B6730 /* FilterViewModel.swift */; };
-		8AF3104328A2F7F3003B6730 /* FilterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3104228A2F7F3003B6730 /* FilterCoordinator.swift */; };
-		8AF3104728A2F8C6003B6730 /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3104528A2F8C6003B6730 /* RestaurantCell.xib */; };
-		8AF3104828A2F8C6003B6730 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3104628A2F8C6003B6730 /* RestaurantCell.swift */; };
-		8AF3104C28A2F982003B6730 /* HomeListScreen+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3104B28A2F982003B6730 /* HomeListScreen+UITableView.swift */; };
-		8AF3104E28A2F9A0003B6730 /* HomeListScreen+UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3104D28A2F9A0003B6730 /* HomeListScreen+UISearchBar.swift */; };
-		8AF3105028A2FA7D003B6730 /* HomeListScreen+Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3104F28A2FA7D003B6730 /* HomeListScreen+Filter.swift */; };
-		8AF3105228A2FC6D003B6730 /* FilterScreen+UIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3105128A2FC6D003B6730 /* FilterScreen+UIPickerView.swift */; };
-		8AF3105428A2FD1E003B6730 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3105328A2FD1E003B6730 /* sample.json */; };
-		8AF3105628A2FD38003B6730 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3105528A2FD38003B6730 /* FileReader.swift */; };
-		8AF3105828A3042C003B6730 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3105728A3042C003B6730 /* DataFetcher.swift */; };
-		8AF3105A28A30434003B6730 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3105928A30434003B6730 /* Extensions.swift */; };
-		8AF3105D28A30448003B6730 /* BaseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3105B28A30447003B6730 /* BaseDataModel.swift */; };
-		8AF3105E28A30448003B6730 /* RestaurantDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3105C28A30448003B6730 /* RestaurantDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,39 +39,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000DBFA315A111A05C984B9B /* Pods-Life Rando TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life Rando TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Life Rando TaskTests/Pods-Life Rando TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E807E00BD45F5BD65B1413A /* Pods_Life_Rando_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Life_Rando_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EB4F61FAF109E6CDADA5C7 /* Pods-Life Rando TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life Rando TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Life Rando TaskTests/Pods-Life Rando TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A81BF4928A39AF40062BD63 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8AF30FF728A2E385003B6730 /* Life Rando Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Rando Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF30FFA28A2E385003B6730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF30FFC28A2E385003B6730 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8AF30FFE28A2E385003B6730 /* SplashScreeenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreeenViewController.swift; sourceTree = "<group>"; };
-		8AF3100128A2E385003B6730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AF3100328A2E387003B6730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8AF3100628A2E387003B6730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AF3100828A2E387003B6730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AF3100D28A2E387003B6730 /* Life Rando TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life Rando TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF3101128A2E387003B6730 /* Life_Rando_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Rando_TaskTests.swift; sourceTree = "<group>"; };
 		8AF3101728A2E388003B6730 /* Life Rando TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life Rando TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF3101B28A2E388003B6730 /* Life_Rando_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Rando_TaskUITests.swift; sourceTree = "<group>"; };
 		8AF3101D28A2E388003B6730 /* Life_Rando_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_Rando_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		8AF3103328A2E818003B6730 /* HomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewController.swift; sourceTree = "<group>"; };
 		8AF3103528A2F1B8003B6730 /* SplashScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewModel.swift; sourceTree = "<group>"; };
 		8AF3103728A2F1CF003B6730 /* SplashScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenCoordinator.swift; sourceTree = "<group>"; };
-		8AF3103928A2F513003B6730 /* HomeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewModel.swift; sourceTree = "<group>"; };
-		8AF3103B28A2F56C003B6730 /* HomeListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListCoordinator.swift; sourceTree = "<group>"; };
-		8AF3103E28A2F7AA003B6730 /* FilterHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterHomeScreen.swift; sourceTree = "<group>"; };
-		8AF3104028A2F7C5003B6730 /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
-		8AF3104228A2F7F3003B6730 /* FilterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCoordinator.swift; sourceTree = "<group>"; };
-		8AF3104528A2F8C6003B6730 /* RestaurantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantCell.xib; sourceTree = "<group>"; };
-		8AF3104628A2F8C6003B6730 /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
-		8AF3104B28A2F982003B6730 /* HomeListScreen+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeListScreen+UITableView.swift"; sourceTree = "<group>"; };
-		8AF3104D28A2F9A0003B6730 /* HomeListScreen+UISearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeListScreen+UISearchBar.swift"; sourceTree = "<group>"; };
-		8AF3104F28A2FA7D003B6730 /* HomeListScreen+Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeListScreen+Filter.swift"; sourceTree = "<group>"; };
-		8AF3105128A2FC6D003B6730 /* FilterScreen+UIPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterScreen+UIPickerView.swift"; sourceTree = "<group>"; };
-		8AF3105328A2FD1E003B6730 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
-		8AF3105528A2FD38003B6730 /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
-		8AF3105728A3042C003B6730 /* DataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
-		8AF3105928A30434003B6730 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		8AF3105B28A30447003B6730 /* BaseDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDataModel.swift; sourceTree = "<group>"; };
-		8AF3105C28A30448003B6730 /* RestaurantDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetails.swift; sourceTree = "<group>"; };
+		9D8A170360FE8FCF0119A0D7 /* Pods_Life_Rando_Task_Life_Rando_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Life_Rando_Task_Life_Rando_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BD7F3700B7835C01C0A27D /* Pods-Life Rando Task-Life Rando TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life Rando Task-Life Rando TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Life Rando Task-Life Rando TaskUITests/Pods-Life Rando Task-Life Rando TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E2095FAD12C311FC74236EF2 /* Pods_Life_Rando_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Life_Rando_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6349059BA42AFDD4AD48A1 /* Pods-Life Rando Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life Rando Task.debug.xcconfig"; path = "Target Support Files/Pods-Life Rando Task/Pods-Life Rando Task.debug.xcconfig"; sourceTree = "<group>"; };
+		F0C3C28A32DFF7C9EEDBEC85 /* Pods-Life Rando Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life Rando Task.release.xcconfig"; path = "Target Support Files/Pods-Life Rando Task/Pods-Life Rando Task.release.xcconfig"; sourceTree = "<group>"; };
+		F8630E6B92043D1830108964 /* Pods-Life Rando Task-Life Rando TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Life Rando Task-Life Rando TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Life Rando Task-Life Rando TaskUITests/Pods-Life Rando Task-Life Rando TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A0A447E315966B8CDACBA0 /* Pods_Life_Rando_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497303180D46B0716C0C1985 /* Pods_Life_Rando_TaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,12 +84,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205761D87DBFBB361E705975 /* Pods_Life_Rando_Task_Life_Rando_TaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13FE0A20AD51029ED72D39BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB6349059BA42AFDD4AD48A1 /* Pods-Life Rando Task.debug.xcconfig */,
+				F0C3C28A32DFF7C9EEDBEC85 /* Pods-Life Rando Task.release.xcconfig */,
+				F8630E6B92043D1830108964 /* Pods-Life Rando Task-Life Rando TaskUITests.debug.xcconfig */,
+				C4BD7F3700B7835C01C0A27D /* Pods-Life Rando Task-Life Rando TaskUITests.release.xcconfig */,
+				65EB4F61FAF109E6CDADA5C7 /* Pods-Life Rando TaskTests.debug.xcconfig */,
+				000DBFA315A111A05C984B9B /* Pods-Life Rando TaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A81BF4828A39AC70062BD63 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				8A81BF4928A39AF40062BD63 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
 		8AF30FEE28A2E384003B6730 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +119,8 @@
 				8AF3101028A2E387003B6730 /* Life Rando TaskTests */,
 				8AF3101A28A2E388003B6730 /* Life Rando TaskUITests */,
 				8AF30FF828A2E385003B6730 /* Products */,
+				13FE0A20AD51029ED72D39BA /* Pods */,
+				D87FE02EBF003388729C47AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,14 +137,8 @@
 		8AF30FF928A2E385003B6730 /* Life Rando Task */ = {
 			isa = PBXGroup;
 			children = (
-				8AF3103D28A2F76E003B6730 /* Filter View */,
-				8AF3103228A2E455003B6730 /* Home View */,
+				8A81BF4828A39AC70062BD63 /* StoryBoard */,
 				8AF3103128A2E44B003B6730 /* Splash View */,
-				8AF3103028A2E439003B6730 /* Data Models */,
-				8AF3102F28A2E424003B6730 /* Extenstions */,
-				8AF3102E28A2E413003B6730 /* Helpers */,
-				8AF3102D28A2E3DC003B6730 /* Storyboards */,
-				8AF3102C28A2E3D0003B6730 /* Resources */,
 				8AF3102B28A2E3BE003B6730 /* Configuration */,
 				8AF3102A28A2E3B7003B6730 /* Core */,
 			);
@@ -187,52 +179,6 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		8AF3102C28A2E3D0003B6730 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8AF3100528A2E387003B6730 /* LaunchScreen.storyboard */,
-				8AF3100328A2E387003B6730 /* Assets.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		8AF3102D28A2E3DC003B6730 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				8AF3100028A2E385003B6730 /* Main.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		8AF3102E28A2E413003B6730 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				8AF3105328A2FD1E003B6730 /* sample.json */,
-				8AF3105528A2FD38003B6730 /* FileReader.swift */,
-				8AF3105728A3042C003B6730 /* DataFetcher.swift */,
-				8AF3105928A30434003B6730 /* Extensions.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		8AF3102F28A2E424003B6730 /* Extenstions */ = {
-			isa = PBXGroup;
-			children = (
-				8AF3104A28A2F958003B6730 /* Filter */,
-				8AF3104928A2F94C003B6730 /* Home */,
-			);
-			path = Extenstions;
-			sourceTree = "<group>";
-		};
-		8AF3103028A2E439003B6730 /* Data Models */ = {
-			isa = PBXGroup;
-			children = (
-				8AF3105B28A30447003B6730 /* BaseDataModel.swift */,
-				8AF3105C28A30448003B6730 /* RestaurantDetails.swift */,
-			);
-			path = "Data Models";
-			sourceTree = "<group>";
-		};
 		8AF3103128A2E44B003B6730 /* Splash View */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,52 +189,14 @@
 			path = "Splash View";
 			sourceTree = "<group>";
 		};
-		8AF3103228A2E455003B6730 /* Home View */ = {
+		D87FE02EBF003388729C47AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8AF3104428A2F89E003B6730 /* RestrauntsCell */,
-				8AF3103328A2E818003B6730 /* HomeListViewController.swift */,
-				8AF3103928A2F513003B6730 /* HomeListViewModel.swift */,
-				8AF3103B28A2F56C003B6730 /* HomeListCoordinator.swift */,
+				E2095FAD12C311FC74236EF2 /* Pods_Life_Rando_Task.framework */,
+				9D8A170360FE8FCF0119A0D7 /* Pods_Life_Rando_Task_Life_Rando_TaskUITests.framework */,
+				3E807E00BD45F5BD65B1413A /* Pods_Life_Rando_TaskTests.framework */,
 			);
-			path = "Home View";
-			sourceTree = "<group>";
-		};
-		8AF3103D28A2F76E003B6730 /* Filter View */ = {
-			isa = PBXGroup;
-			children = (
-				8AF3103E28A2F7AA003B6730 /* FilterHomeScreen.swift */,
-				8AF3104028A2F7C5003B6730 /* FilterViewModel.swift */,
-				8AF3104228A2F7F3003B6730 /* FilterCoordinator.swift */,
-			);
-			path = "Filter View";
-			sourceTree = "<group>";
-		};
-		8AF3104428A2F89E003B6730 /* RestrauntsCell */ = {
-			isa = PBXGroup;
-			children = (
-				8AF3104628A2F8C6003B6730 /* RestaurantCell.swift */,
-				8AF3104528A2F8C6003B6730 /* RestaurantCell.xib */,
-			);
-			path = RestrauntsCell;
-			sourceTree = "<group>";
-		};
-		8AF3104928A2F94C003B6730 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				8AF3104B28A2F982003B6730 /* HomeListScreen+UITableView.swift */,
-				8AF3104D28A2F9A0003B6730 /* HomeListScreen+UISearchBar.swift */,
-				8AF3104F28A2FA7D003B6730 /* HomeListScreen+Filter.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		8AF3104A28A2F958003B6730 /* Filter */ = {
-			isa = PBXGroup;
-			children = (
-				8AF3105128A2FC6D003B6730 /* FilterScreen+UIPickerView.swift */,
-			);
-			path = Filter;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AF3102128A2E388003B6730 /* Build configuration list for PBXNativeTarget "Life Rando Task" */;
 			buildPhases = (
+				7A9F2BD195473A7A0E9A4425 /* [CP] Check Pods Manifest.lock */,
 				8AF30FF328A2E385003B6730 /* Sources */,
 				8AF30FF428A2E385003B6730 /* Frameworks */,
 				8AF30FF528A2E385003B6730 /* Resources */,
+				2A2DFA54DC66378CF30A58A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -315,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AF3102428A2E388003B6730 /* Build configuration list for PBXNativeTarget "Life Rando TaskTests" */;
 			buildPhases = (
+				306B75E8D934E5DBC3C1EF35 /* [CP] Check Pods Manifest.lock */,
 				8AF3100928A2E387003B6730 /* Sources */,
 				8AF3100A28A2E387003B6730 /* Frameworks */,
 				8AF3100B28A2E387003B6730 /* Resources */,
@@ -333,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AF3102728A2E388003B6730 /* Build configuration list for PBXNativeTarget "Life Rando TaskUITests" */;
 			buildPhases = (
+				E4B8DE09F15EDA84E398F54E /* [CP] Check Pods Manifest.lock */,
 				8AF3101328A2E388003B6730 /* Sources */,
 				8AF3101428A2E388003B6730 /* Frameworks */,
 				8AF3101528A2E388003B6730 /* Resources */,
+				E69C3D402C7690CC3F549BDE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -395,11 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AF3105428A2FD1E003B6730 /* sample.json in Resources */,
-				8AF3104728A2F8C6003B6730 /* RestaurantCell.xib in Resources */,
-				8AF3100728A2E387003B6730 /* LaunchScreen.storyboard in Resources */,
-				8AF3100428A2E387003B6730 /* Assets.xcassets in Resources */,
-				8AF3100228A2E385003B6730 /* Main.storyboard in Resources */,
+				8A81BF4A28A39AF40062BD63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,32 +328,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A2DFA54DC66378CF30A58A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Life Rando Task/Pods-Life Rando Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Life Rando Task/Pods-Life Rando Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Life Rando Task/Pods-Life Rando Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		306B75E8D934E5DBC3C1EF35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Life Rando TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A9F2BD195473A7A0E9A4425 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Life Rando Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4B8DE09F15EDA84E398F54E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Life Rando Task-Life Rando TaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E69C3D402C7690CC3F549BDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Life Rando Task-Life Rando TaskUITests/Pods-Life Rando Task-Life Rando TaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Life Rando Task-Life Rando TaskUITests/Pods-Life Rando Task-Life Rando TaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Life Rando Task-Life Rando TaskUITests/Pods-Life Rando Task-Life Rando TaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AF30FF328A2E385003B6730 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AF3105D28A30448003B6730 /* BaseDataModel.swift in Sources */,
-				8AF3104828A2F8C6003B6730 /* RestaurantCell.swift in Sources */,
 				8AF3103628A2F1B8003B6730 /* SplashScreenViewModel.swift in Sources */,
-				8AF3105228A2FC6D003B6730 /* FilterScreen+UIPickerView.swift in Sources */,
-				8AF3104E28A2F9A0003B6730 /* HomeListScreen+UISearchBar.swift in Sources */,
-				8AF3105028A2FA7D003B6730 /* HomeListScreen+Filter.swift in Sources */,
 				8AF30FFF28A2E385003B6730 /* SplashScreeenViewController.swift in Sources */,
-				8AF3104128A2F7C5003B6730 /* FilterViewModel.swift in Sources */,
-				8AF3105A28A30434003B6730 /* Extensions.swift in Sources */,
 				8AF30FFB28A2E385003B6730 /* AppDelegate.swift in Sources */,
 				8AF3103828A2F1CF003B6730 /* SplashScreenCoordinator.swift in Sources */,
-				8AF3105E28A30448003B6730 /* RestaurantDetails.swift in Sources */,
-				8AF3105628A2FD38003B6730 /* FileReader.swift in Sources */,
-				8AF3104C28A2F982003B6730 /* HomeListScreen+UITableView.swift in Sources */,
-				8AF3103A28A2F513003B6730 /* HomeListViewModel.swift in Sources */,
-				8AF3104328A2F7F3003B6730 /* FilterCoordinator.swift in Sources */,
-				8AF3103C28A2F56C003B6730 /* HomeListCoordinator.swift in Sources */,
-				8AF3103F28A2F7AA003B6730 /* FilterHomeScreen.swift in Sources */,
-				8AF3105828A3042C003B6730 /* DataFetcher.swift in Sources */,
 				8AF30FFD28A2E385003B6730 /* SceneDelegate.swift in Sources */,
-				8AF3103428A2E818003B6730 /* HomeListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,25 +475,6 @@
 			targetProxy = 8AF3101828A2E388003B6730 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8AF3100028A2E385003B6730 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8AF3100128A2E385003B6730 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8AF3100528A2E387003B6730 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8AF3100628A2E387003B6730 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8AF3101F28A2E388003B6730 /* Debug */ = {
@@ -618,6 +595,7 @@
 		};
 		8AF3102228A2E388003B6730 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6349059BA42AFDD4AD48A1 /* Pods-Life Rando Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -645,6 +623,7 @@
 		};
 		8AF3102328A2E388003B6730 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C3C28A32DFF7C9EEDBEC85 /* Pods-Life Rando Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -672,6 +651,7 @@
 		};
 		8AF3102528A2E388003B6730 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65EB4F61FAF109E6CDADA5C7 /* Pods-Life Rando TaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -696,6 +676,7 @@
 		};
 		8AF3102628A2E388003B6730 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000DBFA315A111A05C984B9B /* Pods-Life Rando TaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -720,6 +701,7 @@
 		};
 		8AF3102828A2E388003B6730 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8630E6B92043D1830108964 /* Pods-Life Rando Task-Life Rando TaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -742,6 +724,7 @@
 		};
 		8AF3102928A2E388003B6730 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BD7F3700B7835C01C0A27D /* Pods-Life Rando Task-Life Rando TaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

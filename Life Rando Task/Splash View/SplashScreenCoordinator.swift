@@ -14,21 +14,21 @@ protocol CoordinatorProtocol {
 class SplashScreenCoordinator: CoordinatorProtocol {
     
     //MARK:- PROPERTIES
-    let homeCoordinator = ListHomeViewCoordinator()
+   // let homeCoordinator = HomeListViewCoordinator()
     
     //MARK:- NAVIGATE TO
     func navigateTo(view: UIViewController) {
-        let viewModel: ListHomeViewModel = ListHomeViewModel(coordinator: homeCoordinator)
-        
-        let homeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "home") as? ListHomeScreen
-        homeViewController?.viewModel =  viewModel
-        
-        if let vc = homeViewController {
-            let navigationController = UINavigationController(rootViewController:  vc)
-            navigationController.modalPresentationStyle = .fullScreen
-            navigationController.modalTransitionStyle = .crossDissolve
-            view.present(navigationController, animated: true, completion: nil)
-        }
+//        let viewModel: HomeListViewModel = HomeListViewModel(coordinator: homeCoordinator)
+//
+//        let homeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "home") as? HomeListViewController
+//        homeViewController?.viewModel =  viewModel
+//
+//        if let vc = homeViewController {
+//            let navigationController = UINavigationController(rootViewController:  vc)
+//            navigationController.modalPresentationStyle = .fullScreen
+//            navigationController.modalTransitionStyle = .crossDissolve
+//            view.present(navigationController, animated: true, completion: nil)
+//        }
     }
 }
 
