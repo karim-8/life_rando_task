@@ -18,7 +18,7 @@ extension UITextField {
         button.setImage(UIImage(named: "bottom_arrow"), for: .normal)
         button.frame = CGRect(x: 0.0, y: 5.0, width: 20, height: 20)
         button.addTarget(self, action: #selector(self.arrowClicked), for: .touchUpInside)
-
+        
         button.contentMode = UIView.ContentMode.center
         button.center = view.center
         view.addSubview(button)
@@ -43,20 +43,7 @@ extension UIView {
         }
     }
 }
-//searching in arr
-//extension Array where Element: Equatable {
-//    func reorder(by preferredOrder: [Element]) -> [Element] {
-//        return self.sorted { (a, b) -> Bool in
-//            guard let first = preferredOrder.firstIndex(of: a) else {
-//                return false
-//            }
-//            guard let second = preferredOrder.firstIndex(of: b) else {
-//                return true
-//            }
-//            return first < second
-//        }
-//    }
-//}
+
 //FontBook for app branding
 enum FontBook: String {
     case bold = "HelveticaNeue-Bold"
@@ -65,20 +52,21 @@ enum FontBook: String {
         return UIFont(name: self.rawValue, size: size)!
     }
 }
+
 extension Bundle {
     func decode<T: Decodable>(_ type: T.Type, from file: String, dateDecodingStrategy: JSONDecoder.DateDecodingStrategy = .deferredToDate, keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy = .useDefaultKeys) -> T {
         guard let url = self.url(forResource: file, withExtension: nil) else {
             fatalError("Failed to locate \(file) in bundle.")
         }
-
+        
         guard let data = try? Data(contentsOf: url) else {
             fatalError("Failed to load \(file) from bundle.")
         }
-
+        
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = dateDecodingStrategy
         decoder.keyDecodingStrategy = keyDecodingStrategy
-
+        
         do {
             return try decoder.decode(T.self, from: data)
         } catch DecodingError.keyNotFound(let key, let context) {

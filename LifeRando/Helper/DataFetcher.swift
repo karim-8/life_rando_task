@@ -8,7 +8,6 @@
 import Foundation
 
 //SOLID single responsibility principle we can use DataFetcher for fetching data offline/online(from API)
-//change it to use case
 class DataFetcher {
     static let shared = DataFetcher()
     //currently we have onyl restaurant we can later on make it generic also for common use

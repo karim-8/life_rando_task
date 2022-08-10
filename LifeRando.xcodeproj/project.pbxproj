@@ -158,15 +158,15 @@
 		80F02CD428A40B2A00865392 /* LifeRando */ = {
 			isa = PBXGroup;
 			children = (
+				80F02D0528A40B4700865392 /* Resources */,
+				80F02D2C28A40B4800865392 /* Helper */,
+				80F02D1428A40B4700865392 /* Extensions */,
+				80F02D2928A40B4800865392 /* Data Models */,
+				80F02D0D28A40B4700865392 /* Splash */,
+				80F02D1D28A40B4800865392 /* Home */,
+				80F02D0928A40B4700865392 /* View */,
 				80F02D1B28A40B4700865392 /* Configuration */,
 				80F02D1128A40B4700865392 /* Core */,
-				80F02D2928A40B4800865392 /* Data Models */,
-				80F02D1428A40B4700865392 /* Extensions */,
-				80F02D2C28A40B4800865392 /* Helper */,
-				80F02D1D28A40B4800865392 /* Home */,
-				80F02D0528A40B4700865392 /* Resources */,
-				80F02D0D28A40B4700865392 /* Splash */,
-				80F02D0928A40B4700865392 /* View */,
 			);
 			path = LifeRando;
 			sourceTree = "<group>";
@@ -235,6 +235,7 @@
 		80F02D1428A40B4700865392 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				80F02D1928A40B4700865392 /* Filter */,
 				80F02D1528A40B4700865392 /* Home */,
 			);
 			path = Extensions;
@@ -246,7 +247,6 @@
 				80F02D1628A40B4700865392 /* ListHomeScreen+UISearchBar.swift */,
 				80F02D1728A40B4700865392 /* ListHomeScreen+Filter.swift */,
 				80F02D1828A40B4700865392 /* ListHomeScreen+UITableView.swift */,
-				80F02D1928A40B4700865392 /* Filter */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -311,8 +311,8 @@
 		80F02D2C28A40B4800865392 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				80F02D2D28A40B4800865392 /* Extensions.swift */,
 				80F02D2E28A40B4800865392 /* sample.json */,
+				80F02D2D28A40B4800865392 /* Extensions.swift */,
 				80F02D2F28A40B4800865392 /* DataFetcher.swift */,
 				80F02D3028A40B4800865392 /* FileReader.swift */,
 			);
