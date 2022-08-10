@@ -1,0 +1,6 @@
+framework module Pods_LifeRando_LifeRandoUITests {
+  umbrella header "Pods-LifeRando-LifeRandoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

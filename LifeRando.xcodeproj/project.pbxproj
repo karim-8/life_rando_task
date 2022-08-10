@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C89FD414F73F9DFC98B408 /* Pods_LifeRandoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8605AB8B7B478BEF10BFBC7 /* Pods_LifeRandoTests.framework */; };
+		80F02CDD28A40B2A00865392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F02CDB28A40B2A00865392 /* Main.storyboard */; };
+		80F02CED28A40B2C00865392 /* LifeRandoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02CEC28A40B2C00865392 /* LifeRandoTests.swift */; };
+		80F02CF728A40B2C00865392 /* LifeRandoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02CF628A40B2C00865392 /* LifeRandoUITests.swift */; };
+		80F02CF928A40B2C00865392 /* LifeRandoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02CF828A40B2C00865392 /* LifeRandoUITestsLaunchTests.swift */; };
+		80F02D3128A40B4800865392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F02D0628A40B4700865392 /* Assets.xcassets */; };
+		80F02D3228A40B4800865392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F02D0728A40B4700865392 /* LaunchScreen.storyboard */; };
+		80F02D3428A40B4800865392 /* SplashScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D0E28A40B4700865392 /* SplashScreenCoordinator.swift */; };
+		80F02D3528A40B4800865392 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D0F28A40B4700865392 /* SplashViewController.swift */; };
+		80F02D3628A40B4800865392 /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D1028A40B4700865392 /* SplashScreenViewModel.swift */; };
+		80F02D3728A40B4800865392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D1228A40B4700865392 /* AppDelegate.swift */; };
+		80F02D3828A40B4800865392 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D1328A40B4700865392 /* SceneDelegate.swift */; };
+		80F02D3928A40B4800865392 /* ListHomeScreen+UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D1628A40B4700865392 /* ListHomeScreen+UISearchBar.swift */; };
+		80F02D3A28A40B4800865392 /* ListHomeScreen+Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D1728A40B4700865392 /* ListHomeScreen+Filter.swift */; };
+		80F02D3B28A40B4800865392 /* ListHomeScreen+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D1828A40B4700865392 /* ListHomeScreen+UITableView.swift */; };
+		80F02D3C28A40B4800865392 /* FilterScreen+UIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D1A28A40B4700865392 /* FilterScreen+UIPickerView.swift */; };
+		80F02D3E28A40B4800865392 /* ListHomeViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D1E28A40B4800865392 /* ListHomeViewCoordinator.swift */; };
+		80F02D3F28A40B4800865392 /* RestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80F02D2028A40B4800865392 /* RestaurantCell.xib */; };
+		80F02D4028A40B4800865392 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D2128A40B4800865392 /* RestaurantCell.swift */; };
+		80F02D4128A40B4800865392 /* ListCellHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D2228A40B4800865392 /* ListCellHomeViewModel.swift */; };
+		80F02D4228A40B4800865392 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D2428A40B4800865392 /* FilterViewModel.swift */; };
+		80F02D4328A40B4800865392 /* FilterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D2528A40B4800865392 /* FilterScreen.swift */; };
+		80F02D4428A40B4800865392 /* FilterViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D2628A40B4800865392 /* FilterViewCoordinator.swift */; };
+		80F02D4528A40B4800865392 /* ListHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D2728A40B4800865392 /* ListHomeViewModel.swift */; };
+		80F02D4628A40B4800865392 /* ListHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D2828A40B4800865392 /* ListHomeScreen.swift */; };
+		80F02D4728A40B4800865392 /* BaseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D2A28A40B4800865392 /* BaseDataModel.swift */; };
+		80F02D4828A40B4800865392 /* RestaurantDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D2B28A40B4800865392 /* RestaurantDetails.swift */; };
+		80F02D4928A40B4800865392 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D2D28A40B4800865392 /* Extensions.swift */; };
+		80F02D4A28A40B4800865392 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 80F02D2E28A40B4800865392 /* sample.json */; };
+		80F02D4B28A40B4800865392 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D2F28A40B4800865392 /* DataFetcher.swift */; };
+		80F02D4C28A40B4800865392 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F02D3028A40B4800865392 /* FileReader.swift */; };
+		E25FE7AB4ECFF3D5B68F432A /* Pods_LifeRando_LifeRandoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B08F9022D92E432704C94DF /* Pods_LifeRando_LifeRandoUITests.framework */; };
+		FAAD4A9316BBF68164E27B62 /* Pods_LifeRando.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA56DD8A19B8E60C1FEE3ABD /* Pods_LifeRando.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80F02CE928A40B2C00865392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80F02CCA28A40B2A00865392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80F02CD128A40B2A00865392;
+			remoteInfo = LifeRando;
+		};
+		80F02CF328A40B2C00865392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80F02CCA28A40B2A00865392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80F02CD128A40B2A00865392;
+			remoteInfo = LifeRando;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05D728D0C1A591319C2F3772 /* Pods-LifeRandoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeRandoTests.release.xcconfig"; path = "Target Support Files/Pods-LifeRandoTests/Pods-LifeRandoTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B08F9022D92E432704C94DF /* Pods_LifeRando_LifeRandoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeRando_LifeRandoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD77037E0E99FAD883EF506 /* Pods-LifeRando-LifeRandoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeRando-LifeRandoUITests.debug.xcconfig"; path = "Target Support Files/Pods-LifeRando-LifeRandoUITests/Pods-LifeRando-LifeRandoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B21A8B1E1275FCD34576279 /* Pods-LifeRando-LifeRandoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeRando-LifeRandoUITests.release.xcconfig"; path = "Target Support Files/Pods-LifeRando-LifeRandoUITests/Pods-LifeRando-LifeRandoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80F02CD228A40B2A00865392 /* LifeRando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeRando.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F02CDC28A40B2A00865392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80F02CE828A40B2C00865392 /* LifeRandoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeRandoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F02CEC28A40B2C00865392 /* LifeRandoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeRandoTests.swift; sourceTree = "<group>"; };
+		80F02CF228A40B2C00865392 /* LifeRandoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeRandoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F02CF628A40B2C00865392 /* LifeRandoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeRandoUITests.swift; sourceTree = "<group>"; };
+		80F02CF828A40B2C00865392 /* LifeRandoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeRandoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80F02D0628A40B4700865392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80F02D0828A40B4700865392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80F02D0E28A40B4700865392 /* SplashScreenCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenCoordinator.swift; sourceTree = "<group>"; };
+		80F02D0F28A40B4700865392 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		80F02D1028A40B4700865392 /* SplashScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenViewModel.swift; sourceTree = "<group>"; };
+		80F02D1228A40B4700865392 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80F02D1328A40B4700865392 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80F02D1628A40B4700865392 /* ListHomeScreen+UISearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListHomeScreen+UISearchBar.swift"; sourceTree = "<group>"; };
+		80F02D1728A40B4700865392 /* ListHomeScreen+Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListHomeScreen+Filter.swift"; sourceTree = "<group>"; };
+		80F02D1828A40B4700865392 /* ListHomeScreen+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListHomeScreen+UITableView.swift"; sourceTree = "<group>"; };
+		80F02D1A28A40B4700865392 /* FilterScreen+UIPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FilterScreen+UIPickerView.swift"; sourceTree = "<group>"; };
+		80F02D1C28A40B4700865392 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F02D1E28A40B4800865392 /* ListHomeViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListHomeViewCoordinator.swift; sourceTree = "<group>"; };
+		80F02D2028A40B4800865392 /* RestaurantCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RestaurantCell.xib; sourceTree = "<group>"; };
+		80F02D2128A40B4800865392 /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		80F02D2228A40B4800865392 /* ListCellHomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellHomeViewModel.swift; sourceTree = "<group>"; };
+		80F02D2428A40B4800865392 /* FilterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
+		80F02D2528A40B4800865392 /* FilterScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterScreen.swift; sourceTree = "<group>"; };
+		80F02D2628A40B4800865392 /* FilterViewCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewCoordinator.swift; sourceTree = "<group>"; };
+		80F02D2728A40B4800865392 /* ListHomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListHomeViewModel.swift; sourceTree = "<group>"; };
+		80F02D2828A40B4800865392 /* ListHomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListHomeScreen.swift; sourceTree = "<group>"; };
+		80F02D2A28A40B4800865392 /* BaseDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDataModel.swift; sourceTree = "<group>"; };
+		80F02D2B28A40B4800865392 /* RestaurantDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetails.swift; sourceTree = "<group>"; };
+		80F02D2D28A40B4800865392 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		80F02D2E28A40B4800865392 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		80F02D2F28A40B4800865392 /* DataFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
+		80F02D3028A40B4800865392 /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		8731BB96F016BA718B37F3C9 /* Pods-LifeRandoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeRandoTests.debug.xcconfig"; path = "Target Support Files/Pods-LifeRandoTests/Pods-LifeRandoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8605AB8B7B478BEF10BFBC7 /* Pods_LifeRandoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeRandoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81A687192D18D8E67AFB1FB /* Pods-LifeRando.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeRando.release.xcconfig"; path = "Target Support Files/Pods-LifeRando/Pods-LifeRando.release.xcconfig"; sourceTree = "<group>"; };
+		EA56DD8A19B8E60C1FEE3ABD /* Pods_LifeRando.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeRando.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3287CFBE9E625D3A9610F54 /* Pods-LifeRando.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeRando.debug.xcconfig"; path = "Target Support Files/Pods-LifeRando/Pods-LifeRando.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80F02CCF28A40B2A00865392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAD4A9316BBF68164E27B62 /* Pods_LifeRando.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F02CE528A40B2C00865392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C89FD414F73F9DFC98B408 /* Pods_LifeRandoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F02CEF28A40B2C00865392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25FE7AB4ECFF3D5B68F432A /* Pods_LifeRando_LifeRandoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80F02CC928A40B2A00865392 = {
+			isa = PBXGroup;
+			children = (
+				80F02CD428A40B2A00865392 /* LifeRando */,
+				80F02CEB28A40B2C00865392 /* LifeRandoTests */,
+				80F02CF528A40B2C00865392 /* LifeRandoUITests */,
+				80F02CD328A40B2A00865392 /* Products */,
+				855AD9EC3421F14EAEF39402 /* Pods */,
+				BA91215DC3E7C12F4766D74A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80F02CD328A40B2A00865392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80F02CD228A40B2A00865392 /* LifeRando.app */,
+				80F02CE828A40B2C00865392 /* LifeRandoTests.xctest */,
+				80F02CF228A40B2C00865392 /* LifeRandoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80F02CD428A40B2A00865392 /* LifeRando */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D1B28A40B4700865392 /* Configuration */,
+				80F02D1128A40B4700865392 /* Core */,
+				80F02D2928A40B4800865392 /* Data Models */,
+				80F02D1428A40B4700865392 /* Extensions */,
+				80F02D2C28A40B4800865392 /* Helper */,
+				80F02D1D28A40B4800865392 /* Home */,
+				80F02D0528A40B4700865392 /* Resources */,
+				80F02D0D28A40B4700865392 /* Splash */,
+				80F02D0928A40B4700865392 /* View */,
+			);
+			path = LifeRando;
+			sourceTree = "<group>";
+		};
+		80F02CEB28A40B2C00865392 /* LifeRandoTests */ = {
+			isa = PBXGroup;
+			children = (
+				80F02CEC28A40B2C00865392 /* LifeRandoTests.swift */,
+			);
+			path = LifeRandoTests;
+			sourceTree = "<group>";
+		};
+		80F02CF528A40B2C00865392 /* LifeRandoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80F02CF628A40B2C00865392 /* LifeRandoUITests.swift */,
+				80F02CF828A40B2C00865392 /* LifeRandoUITestsLaunchTests.swift */,
+			);
+			path = LifeRandoUITests;
+			sourceTree = "<group>";
+		};
+		80F02D0528A40B4700865392 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D0628A40B4700865392 /* Assets.xcassets */,
+				80F02D0728A40B4700865392 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80F02D0928A40B4700865392 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D0A28A40B4700865392 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80F02D0A28A40B4700865392 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				80F02CDB28A40B2A00865392 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		80F02D0D28A40B4700865392 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D0E28A40B4700865392 /* SplashScreenCoordinator.swift */,
+				80F02D0F28A40B4700865392 /* SplashViewController.swift */,
+				80F02D1028A40B4700865392 /* SplashScreenViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		80F02D1128A40B4700865392 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D1228A40B4700865392 /* AppDelegate.swift */,
+				80F02D1328A40B4700865392 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		80F02D1428A40B4700865392 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D1528A40B4700865392 /* Home */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80F02D1528A40B4700865392 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D1628A40B4700865392 /* ListHomeScreen+UISearchBar.swift */,
+				80F02D1728A40B4700865392 /* ListHomeScreen+Filter.swift */,
+				80F02D1828A40B4700865392 /* ListHomeScreen+UITableView.swift */,
+				80F02D1928A40B4700865392 /* Filter */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		80F02D1928A40B4700865392 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D1A28A40B4700865392 /* FilterScreen+UIPickerView.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		80F02D1B28A40B4700865392 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D1C28A40B4700865392 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		80F02D1D28A40B4800865392 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D2328A40B4800865392 /* Filter */,
+				80F02D1F28A40B4800865392 /* Cell */,
+				80F02D1E28A40B4800865392 /* ListHomeViewCoordinator.swift */,
+				80F02D2228A40B4800865392 /* ListCellHomeViewModel.swift */,
+				80F02D2728A40B4800865392 /* ListHomeViewModel.swift */,
+				80F02D2828A40B4800865392 /* ListHomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		80F02D1F28A40B4800865392 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D2028A40B4800865392 /* RestaurantCell.xib */,
+				80F02D2128A40B4800865392 /* RestaurantCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		80F02D2328A40B4800865392 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D2428A40B4800865392 /* FilterViewModel.swift */,
+				80F02D2528A40B4800865392 /* FilterScreen.swift */,
+				80F02D2628A40B4800865392 /* FilterViewCoordinator.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		80F02D2928A40B4800865392 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D2A28A40B4800865392 /* BaseDataModel.swift */,
+				80F02D2B28A40B4800865392 /* RestaurantDetails.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		80F02D2C28A40B4800865392 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				80F02D2D28A40B4800865392 /* Extensions.swift */,
+				80F02D2E28A40B4800865392 /* sample.json */,
+				80F02D2F28A40B4800865392 /* DataFetcher.swift */,
+				80F02D3028A40B4800865392 /* FileReader.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		855AD9EC3421F14EAEF39402 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3287CFBE9E625D3A9610F54 /* Pods-LifeRando.debug.xcconfig */,
+				D81A687192D18D8E67AFB1FB /* Pods-LifeRando.release.xcconfig */,
+				2AD77037E0E99FAD883EF506 /* Pods-LifeRando-LifeRandoUITests.debug.xcconfig */,
+				7B21A8B1E1275FCD34576279 /* Pods-LifeRando-LifeRandoUITests.release.xcconfig */,
+				8731BB96F016BA718B37F3C9 /* Pods-LifeRandoTests.debug.xcconfig */,
+				05D728D0C1A591319C2F3772 /* Pods-LifeRandoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA91215DC3E7C12F4766D74A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA56DD8A19B8E60C1FEE3ABD /* Pods_LifeRando.framework */,
+				0B08F9022D92E432704C94DF /* Pods_LifeRando_LifeRandoUITests.framework */,
+				A8605AB8B7B478BEF10BFBC7 /* Pods_LifeRandoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80F02CD128A40B2A00865392 /* LifeRando */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F02CFC28A40B2C00865392 /* Build configuration list for PBXNativeTarget "LifeRando" */;
+			buildPhases = (
+				225DE59860A2FF379F5AB809 /* [CP] Check Pods Manifest.lock */,
+				80F02CCE28A40B2A00865392 /* Sources */,
+				80F02CCF28A40B2A00865392 /* Frameworks */,
+				80F02CD028A40B2A00865392 /* Resources */,
+				85B4A05F89315B284C375262 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeRando;
+			productName = LifeRando;
+			productReference = 80F02CD228A40B2A00865392 /* LifeRando.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80F02CE728A40B2C00865392 /* LifeRandoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F02CFF28A40B2C00865392 /* Build configuration list for PBXNativeTarget "LifeRandoTests" */;
+			buildPhases = (
+				33F3B5CD8EDC366E746D24D3 /* [CP] Check Pods Manifest.lock */,
+				80F02CE428A40B2C00865392 /* Sources */,
+				80F02CE528A40B2C00865392 /* Frameworks */,
+				80F02CE628A40B2C00865392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80F02CEA28A40B2C00865392 /* PBXTargetDependency */,
+			);
+			name = LifeRandoTests;
+			productName = LifeRandoTests;
+			productReference = 80F02CE828A40B2C00865392 /* LifeRandoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80F02CF128A40B2C00865392 /* LifeRandoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F02D0228A40B2C00865392 /* Build configuration list for PBXNativeTarget "LifeRandoUITests" */;
+			buildPhases = (
+				F2F3F720E7EFBCB99167973C /* [CP] Check Pods Manifest.lock */,
+				80F02CEE28A40B2C00865392 /* Sources */,
+				80F02CEF28A40B2C00865392 /* Frameworks */,
+				80F02CF028A40B2C00865392 /* Resources */,
+				86A7B8C2DB5DCC210E352B26 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80F02CF428A40B2C00865392 /* PBXTargetDependency */,
+			);
+			name = LifeRandoUITests;
+			productName = LifeRandoUITests;
+			productReference = 80F02CF228A40B2C00865392 /* LifeRandoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80F02CCA28A40B2A00865392 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					80F02CD128A40B2A00865392 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					80F02CE728A40B2C00865392 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 80F02CD128A40B2A00865392;
+					};
+					80F02CF128A40B2C00865392 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 80F02CD128A40B2A00865392;
+					};
+				};
+			};
+			buildConfigurationList = 80F02CCD28A40B2A00865392 /* Build configuration list for PBXProject "LifeRando" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80F02CC928A40B2A00865392;
+			productRefGroup = 80F02CD328A40B2A00865392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80F02CD128A40B2A00865392 /* LifeRando */,
+				80F02CE728A40B2C00865392 /* LifeRandoTests */,
+				80F02CF128A40B2C00865392 /* LifeRandoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80F02CD028A40B2A00865392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F02D4A28A40B4800865392 /* sample.json in Resources */,
+				80F02D3128A40B4800865392 /* Assets.xcassets in Resources */,
+				80F02D3F28A40B4800865392 /* RestaurantCell.xib in Resources */,
+				80F02D3228A40B4800865392 /* LaunchScreen.storyboard in Resources */,
+				80F02CDD28A40B2A00865392 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F02CE628A40B2C00865392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F02CF028A40B2C00865392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		225DE59860A2FF379F5AB809 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeRando-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33F3B5CD8EDC366E746D24D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeRandoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85B4A05F89315B284C375262 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeRando/Pods-LifeRando-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeRando/Pods-LifeRando-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifeRando/Pods-LifeRando-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86A7B8C2DB5DCC210E352B26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeRando-LifeRandoUITests/Pods-LifeRando-LifeRandoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeRando-LifeRandoUITests/Pods-LifeRando-LifeRandoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifeRando-LifeRandoUITests/Pods-LifeRando-LifeRandoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F3F720E7EFBCB99167973C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeRando-LifeRandoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80F02CCE28A40B2A00865392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F02D4928A40B4800865392 /* Extensions.swift in Sources */,
+				80F02D3A28A40B4800865392 /* ListHomeScreen+Filter.swift in Sources */,
+				80F02D4128A40B4800865392 /* ListCellHomeViewModel.swift in Sources */,
+				80F02D4228A40B4800865392 /* FilterViewModel.swift in Sources */,
+				80F02D3C28A40B4800865392 /* FilterScreen+UIPickerView.swift in Sources */,
+				80F02D4428A40B4800865392 /* FilterViewCoordinator.swift in Sources */,
+				80F02D4728A40B4800865392 /* BaseDataModel.swift in Sources */,
+				80F02D3E28A40B4800865392 /* ListHomeViewCoordinator.swift in Sources */,
+				80F02D3928A40B4800865392 /* ListHomeScreen+UISearchBar.swift in Sources */,
+				80F02D4C28A40B4800865392 /* FileReader.swift in Sources */,
+				80F02D4028A40B4800865392 /* RestaurantCell.swift in Sources */,
+				80F02D4328A40B4800865392 /* FilterScreen.swift in Sources */,
+				80F02D3428A40B4800865392 /* SplashScreenCoordinator.swift in Sources */,
+				80F02D4B28A40B4800865392 /* DataFetcher.swift in Sources */,
+				80F02D3728A40B4800865392 /* AppDelegate.swift in Sources */,
+				80F02D4828A40B4800865392 /* RestaurantDetails.swift in Sources */,
+				80F02D4528A40B4800865392 /* ListHomeViewModel.swift in Sources */,
+				80F02D3528A40B4800865392 /* SplashViewController.swift in Sources */,
+				80F02D4628A40B4800865392 /* ListHomeScreen.swift in Sources */,
+				80F02D3B28A40B4800865392 /* ListHomeScreen+UITableView.swift in Sources */,
+				80F02D3628A40B4800865392 /* SplashScreenViewModel.swift in Sources */,
+				80F02D3828A40B4800865392 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F02CE428A40B2C00865392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F02CED28A40B2C00865392 /* LifeRandoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F02CEE28A40B2C00865392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F02CF728A40B2C00865392 /* LifeRandoUITests.swift in Sources */,
+				80F02CF928A40B2C00865392 /* LifeRandoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80F02CEA28A40B2C00865392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80F02CD128A40B2A00865392 /* LifeRando */;
+			targetProxy = 80F02CE928A40B2C00865392 /* PBXContainerItemProxy */;
+		};
+		80F02CF428A40B2C00865392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80F02CD128A40B2A00865392 /* LifeRando */;
+			targetProxy = 80F02CF328A40B2C00865392 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80F02CDB28A40B2A00865392 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F02CDC28A40B2A00865392 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80F02D0728A40B4700865392 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F02D0828A40B4700865392 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80F02CFA28A40B2C00865392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80F02CFB28A40B2C00865392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80F02CFD28A40B2C00865392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3287CFBE9E625D3A9610F54 /* Pods-LifeRando.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LifeRando/Configuration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.LifeRando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80F02CFE28A40B2C00865392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81A687192D18D8E67AFB1FB /* Pods-LifeRando.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LifeRando/Configuration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.LifeRando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80F02D0028A40B2C00865392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8731BB96F016BA718B37F3C9 /* Pods-LifeRandoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.LifeRandoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeRando.app/LifeRando";
+			};
+			name = Debug;
+		};
+		80F02D0128A40B2C00865392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D728D0C1A591319C2F3772 /* Pods-LifeRandoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.LifeRandoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeRando.app/LifeRando";
+			};
+			name = Release;
+		};
+		80F02D0328A40B2C00865392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD77037E0E99FAD883EF506 /* Pods-LifeRando-LifeRandoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.LifeRandoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeRando;
+			};
+			name = Debug;
+		};
+		80F02D0428A40B2C00865392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B21A8B1E1275FCD34576279 /* Pods-LifeRando-LifeRandoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.LifeRandoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeRando;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80F02CCD28A40B2A00865392 /* Build configuration list for PBXProject "LifeRando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F02CFA28A40B2C00865392 /* Debug */,
+				80F02CFB28A40B2C00865392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F02CFC28A40B2C00865392 /* Build configuration list for PBXNativeTarget "LifeRando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F02CFD28A40B2C00865392 /* Debug */,
+				80F02CFE28A40B2C00865392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F02CFF28A40B2C00865392 /* Build configuration list for PBXNativeTarget "LifeRandoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F02D0028A40B2C00865392 /* Debug */,
+				80F02D0128A40B2C00865392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F02D0228A40B2C00865392 /* Build configuration list for PBXNativeTarget "LifeRandoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F02D0328A40B2C00865392 /* Debug */,
+				80F02D0428A40B2C00865392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80F02CCA28A40B2A00865392 /* Project object */;
+}

@@ -7,51 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0826F754A1273D9CF1E3CE2E76F29659 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0263DA738817B46DD5A238589E29058C /* Pods-LifeRandoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3B7027F616DC42ED9A0BDC9528239 /* Pods-LifeRandoTests-dummy.m */; };
 		1C6156B7023F7F69398B4119A0AA492B /* CosmosText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DF35E0E63321E5F772424D9EE48B1 /* CosmosText.swift */; };
 		209D9DD6A82F26B8032A43B060B5D164 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2FCFA7D464D486EC1E486FFF2C21B4ED /* Cosmos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE73B1AFBB1A8CB564DB09EA1BE2942E /* Cosmos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30EC89B6C4364B2F86F262000BD480C1 /* Pods-Life Rando Task-Life Rando TaskUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 796792BC7F4B60202CD4291A38382D46 /* Pods-Life Rando Task-Life Rando TaskUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39ACB2075B7195BF67582724A2949DA5 /* Pods-Life Rando Task-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A720E6A643463DE16E22FD515D40A /* Pods-Life Rando Task-dummy.m */; };
 		3E410558A06008A95E19C2FE1D5E014E /* CosmosRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35696210957ADE15680CA907CD0C77 /* CosmosRating.swift */; };
-		405FB7B1302ABC2C5A8F598F89482C33 /* Pods-Life Rando TaskTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8757F5D501D7E6DD65F2863059E6D3F6 /* Pods-Life Rando TaskTests-dummy.m */; };
+		4086424335B4F73F830386C51A1EB2B0 /* Pods-LifeRando-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE38B2283B89F7DCFFCB9AC7EA6BBFD0 /* Pods-LifeRando-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		449B7D4D4BD118C480786A347A377054 /* CosmosTouchTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACFFC8A6CF484661158E175E3BA996B /* CosmosTouchTarget.swift */; };
 		4D8675E7F1C6254904557B7FB84E1C51 /* CosmosSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B148CC2C6AA832097607C6D9E1130A /* CosmosSettings.swift */; };
 		5E87677262463376144E8B5F6916FCCB /* StarFillMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A70406522118CCB5BDCB099CDB2C36 /* StarFillMode.swift */; };
 		61773DD4962BFA6D7E38DD8A9D998A8A /* CosmosDefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174979D91E7D6F800B205ABDD3EB318F /* CosmosDefaultSettings.swift */; };
 		67318BB3E280E0D8FB9161E5557B71E3 /* Cosmos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C6787280DFA6AA5C600055EE6EA4D /* Cosmos-dummy.m */; };
-		69C3DC8B44350B0A4D99749A48853CB3 /* Pods-Life Rando Task-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12BE7F4F9CBB3342D3C440FD37798D69 /* Pods-Life Rando Task-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E8E2EE8DD0ECA487FDEDD305420B7B7 /* Pods-LifeRandoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2596CC388FB7E93F38C1726489BB25 /* Pods-LifeRandoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		707A7BB7361B25DD579B1C9505070EE2 /* Pods-LifeRando-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE900A914E1A088555E8E411D22EA2A /* Pods-LifeRando-dummy.m */; };
 		772B7FA4384C442360975E95D12383BA /* CosmosAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F95F69EA32AB0728A2CCCF5ECBA773C /* CosmosAccessibility.swift */; };
 		7AA4F48458A149B12BCF7E8EB147E25C /* CosmosTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCA06310EBE16A09D01FECACF9824A3 /* CosmosTouch.swift */; };
+		7B39CF1DDD289732D01EAD2B8329FCD1 /* Pods-LifeRando-LifeRandoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BC7400299700D379EB54D7FB7BCD56 /* Pods-LifeRando-LifeRandoUITests-dummy.m */; };
+		7C7105E7518775B5B3BDD9B7315734AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7E298ECE9B23835D17446526E27D2D67 /* StarLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F11A167F3AA6F45EEA463328BB8EE25 /* StarLayer.swift */; };
 		8322D938B4C21C24E70FBA1B95797AC9 /* CosmosSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E3874A468C60BEB281D0A1E213B262 /* CosmosSize.swift */; };
 		9755F83E9DE9BA2CC07496C16AF80B42 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5897E31E1EC97ED9A077A7DE06FFED3 /* RightToLeft.swift */; };
 		99DB653A1F70EAEC3490B69E4AC9011F /* CosmosLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7148BEACE4E8E4A331749E74D5874D52 /* CosmosLayerHelper.swift */; };
-		A11B9E5159A477FD98D0902D08101BA4 /* Pods-Life Rando TaskTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29955BFD4F685A4041BBEAD53636C431 /* Pods-Life Rando TaskTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABFB9BF862F602531FE8131A350542B0 /* CosmosLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFD3F770945B6DE9CEB6DFFBAC2C00 /* CosmosLayers.swift */; };
-		C16DC3ED24DA3468E866052CA85DF433 /* Pods-Life Rando Task-Life Rando TaskUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B2D0399E381792FC33453F99F61BDE /* Pods-Life Rando Task-Life Rando TaskUITests-dummy.m */; };
+		B8900213C4D26ABD395BED434E69E4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CB4D7FEF62D7943C6E236467F3C516C1 /* CosmosLocalizedRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6E7DAF60D8E62DA62B2CB23D43E16B /* CosmosLocalizedRating.swift */; };
-		E2C88760607768CA658C2D7C8DB587ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EAE01C3D19C2F8E51812D008631B12E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E35528AC29591BC41593899467ED3C48 /* Pods-LifeRando-LifeRandoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47881B02C77C3FE98AB986BAB50D4E96 /* Pods-LifeRando-LifeRandoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC1899EF909D17F47C5C0C2064BD2533 /* CosmosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F75C17AB2E3DBBADD82C283A9920F8 /* CosmosView.swift */; };
+		FE039DEB13DC10D301E60F8F1E507A0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		68BB1E991BBE59801701BE502CA27DB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 41CDFEDD9446F47B2E0CAA9765B864D9;
-			remoteInfo = "Pods-Life Rando Task";
-		};
-		79F40E479465ED6D99B7995DD37A9DB2 /* PBXContainerItemProxy */ = {
+		2A239CB691A2C201CDD8CA547BDB4A05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 00F31BD5217A20974B5E9AAC6256D98E;
 			remoteInfo = Cosmos;
 		};
-		B2EEA06B9E979A6C41F981C6CC9F5A7D /* PBXContainerItemProxy */ = {
+		591D501465D1B26CD2D5584A5E2A1768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C4EC3B60B952130D50BE636F09F5A22;
+			remoteInfo = "Pods-LifeRando";
+		};
+		B8B1BC5F9B0B4658762FDDD8713853BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -62,67 +62,75 @@
 
 /* Begin PBXFileReference section */
 		05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cosmos; path = Cosmos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0661368446C8933BCC13D65E48432100 /* Pods-Life Rando TaskTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Life Rando TaskTests"; path = Pods_Life_Rando_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		062BC3932B0EE13D4618DB67260F15C7 /* Pods-LifeRandoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LifeRandoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B7FBEB4CF40F35ECB6A45EA6B0CF217 /* Pods-LifeRando.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LifeRando.debug.xcconfig"; sourceTree = "<group>"; };
 		0E29BC44317FF962374F2AB1B47271F3 /* Cosmos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.debug.xcconfig; sourceTree = "<group>"; };
-		12BE7F4F9CBB3342D3C440FD37798D69 /* Pods-Life Rando Task-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Life Rando Task-umbrella.h"; sourceTree = "<group>"; };
-		14B7E2D37258F8FDDD3B002A76B40873 /* Pods-Life Rando TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life Rando TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		143EF0C4933A75B1C69E006D7E9614FC /* Pods-LifeRando */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LifeRando"; path = Pods_LifeRando.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		174979D91E7D6F800B205ABDD3EB318F /* CosmosDefaultSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosDefaultSettings.swift; path = Cosmos/CosmosDefaultSettings.swift; sourceTree = "<group>"; };
-		18B25DB54F1E4A11FF090B655EE1A0B9 /* Pods-Life Rando Task-Life Rando TaskUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Life Rando Task-Life Rando TaskUITests.modulemap"; sourceTree = "<group>"; };
+		17AFA23A0227E84DB696D85A7F3CFBF4 /* Pods-LifeRandoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LifeRandoTests-Info.plist"; sourceTree = "<group>"; };
 		1ACFFC8A6CF484661158E175E3BA996B /* CosmosTouchTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouchTarget.swift; path = Cosmos/Helpers/CosmosTouchTarget.swift; sourceTree = "<group>"; };
-		1C7200443FD92D3AC1A5B37771D3E596 /* Pods-Life Rando Task-Life Rando TaskUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Life Rando Task-Life Rando TaskUITests-frameworks.sh"; sourceTree = "<group>"; };
-		29955BFD4F685A4041BBEAD53636C431 /* Pods-Life Rando TaskTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Life Rando TaskTests-umbrella.h"; sourceTree = "<group>"; };
+		1EE900A914E1A088555E8E411D22EA2A /* Pods-LifeRando-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LifeRando-dummy.m"; sourceTree = "<group>"; };
+		227211367BB54ACC46A401D302A42A5E /* Pods-LifeRando-LifeRandoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LifeRando-LifeRandoUITests"; path = Pods_LifeRando_LifeRandoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		295BE279C33F78F68CE34D78614A6D30 /* Pods-LifeRandoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LifeRandoTests.release.xcconfig"; sourceTree = "<group>"; };
+		2A75CBEE8C853B79A90812093D95DA09 /* Pods-LifeRandoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LifeRandoTests.modulemap"; sourceTree = "<group>"; };
 		2E9C6787280DFA6AA5C600055EE6EA4D /* Cosmos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cosmos-dummy.m"; sourceTree = "<group>"; };
 		2F95F69EA32AB0728A2CCCF5ECBA773C /* CosmosAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosAccessibility.swift; path = Cosmos/CosmosAccessibility.swift; sourceTree = "<group>"; };
 		31F75C17AB2E3DBBADD82C283A9920F8 /* CosmosView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosView.swift; path = Cosmos/CosmosView.swift; sourceTree = "<group>"; };
 		32E3874A468C60BEB281D0A1E213B262 /* CosmosSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSize.swift; path = Cosmos/CosmosSize.swift; sourceTree = "<group>"; };
-		345553B9DACAA7305533D9CCB5DE230F /* Pods-Life Rando Task */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Life Rando Task"; path = Pods_Life_Rando_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		428210B848C8FCEACCFD6BE226D37F00 /* Pods-Life Rando TaskTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Life Rando TaskTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		47AF29CE16BD52C09C7BA3A1EE2D7F7B /* Pods-Life Rando TaskTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Life Rando TaskTests.modulemap"; sourceTree = "<group>"; };
+		3A72FDC50887B944387018238237BD7C /* Pods-LifeRandoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LifeRandoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44EE9FAE5A9DD64E6420276CBCD5A696 /* Pods-LifeRando-LifeRandoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LifeRando-LifeRandoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		47881B02C77C3FE98AB986BAB50D4E96 /* Pods-LifeRando-LifeRandoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LifeRando-LifeRandoUITests-umbrella.h"; sourceTree = "<group>"; };
+		48167B23AF2A238923503CE2E611353E /* Pods-LifeRandoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LifeRandoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D2596CC388FB7E93F38C1726489BB25 /* Pods-LifeRandoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LifeRandoTests-umbrella.h"; sourceTree = "<group>"; };
 		4F11A167F3AA6F45EEA463328BB8EE25 /* StarLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarLayer.swift; path = Cosmos/StarLayer.swift; sourceTree = "<group>"; };
+		510DFEFD38248B4150A1D6C91B4F2838 /* Pods-LifeRando.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LifeRando.release.xcconfig"; sourceTree = "<group>"; };
 		569F011501DB1409E3120F376B6B7D0C /* Cosmos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-prefix.pch"; sourceTree = "<group>"; };
-		5706D1B62F2275C162ABCF02D0E05909 /* Pods-Life Rando Task-Life Rando TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life Rando Task-Life Rando TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6490F3A4CF98A4CF75D74B09E1BE1A0C /* Pods-Life Rando Task-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Life Rando Task-acknowledgements.markdown"; sourceTree = "<group>"; };
-		69A7968DF6440742E70BCDBC0C6A50C4 /* Pods-Life Rando Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life Rando Task.debug.xcconfig"; sourceTree = "<group>"; };
+		60DA762656472F93A1538E117C36798F /* Pods-LifeRando-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LifeRando-Info.plist"; sourceTree = "<group>"; };
+		64D150BEC28CBAC67ED434742A3D0CA3 /* Pods-LifeRando-LifeRandoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LifeRando-LifeRandoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7148BEACE4E8E4A331749E74D5874D52 /* CosmosLayerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayerHelper.swift; path = Cosmos/CosmosLayerHelper.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		796792BC7F4B60202CD4291A38382D46 /* Pods-Life Rando Task-Life Rando TaskUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Life Rando Task-Life Rando TaskUITests-umbrella.h"; sourceTree = "<group>"; };
-		7AB447077F19B367305F766F3396F65A /* Pods-Life Rando Task-Life Rando TaskUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Life Rando Task-Life Rando TaskUITests"; path = Pods_Life_Rando_Task_Life_Rando_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82894D47040E2FE5C61417DF74F4A7AB /* Pods-Life Rando Task-Life Rando TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life Rando Task-Life Rando TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8757F5D501D7E6DD65F2863059E6D3F6 /* Pods-Life Rando TaskTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Life Rando TaskTests-dummy.m"; sourceTree = "<group>"; };
-		8D552981EF611347E4A2A91BCA68E175 /* Pods-Life Rando Task.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Life Rando Task.modulemap"; sourceTree = "<group>"; };
-		956B4124C4C437F0FD5849795853A440 /* Pods-Life Rando TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life Rando TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DB3B7027F616DC42ED9A0BDC9528239 /* Pods-LifeRandoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LifeRandoTests-dummy.m"; sourceTree = "<group>"; };
+		8588042143C32B90A5607DEE91D5D8AA /* Pods-LifeRando-LifeRandoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LifeRando-LifeRandoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8AE2516624ED760E475B2C95A7F82D4B /* Pods-LifeRando-LifeRandoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LifeRando-LifeRandoUITests.modulemap"; sourceTree = "<group>"; };
+		8F0288D657556D9816980006440BAB7C /* Pods-LifeRando.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LifeRando.modulemap"; sourceTree = "<group>"; };
+		90BC7400299700D379EB54D7FB7BCD56 /* Pods-LifeRando-LifeRandoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LifeRando-LifeRandoUITests-dummy.m"; sourceTree = "<group>"; };
 		95B148CC2C6AA832097607C6D9E1130A /* CosmosSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosSettings.swift; path = Cosmos/CosmosSettings.swift; sourceTree = "<group>"; };
 		97A70406522118CCB5BDCB099CDB2C36 /* StarFillMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StarFillMode.swift; path = Cosmos/StarFillMode.swift; sourceTree = "<group>"; };
+		99F1D018066C14BF2806A8B02838059B /* Pods-LifeRando-LifeRandoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LifeRando-LifeRandoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9B35696210957ADE15680CA907CD0C77 /* CosmosRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosRating.swift; path = Cosmos/CosmosRating.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EED7526656269DC58FD0F7AFD7C5356 /* Pods-Life Rando Task-Life Rando TaskUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life Rando Task-Life Rando TaskUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A9A774E19A6D1B507595D6ECF729BC6F /* Pods-Life Rando Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Life Rando Task.release.xcconfig"; sourceTree = "<group>"; };
-		AC4AFE4DF556A72A6082FDDEB022BD9A /* Pods-Life Rando TaskTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life Rando TaskTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2EABBED3436D61EFFD0948ED3538E88 /* Pods-LifeRando-LifeRandoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LifeRando-LifeRandoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ABC70917D99183CA38B7DA266761CC09 /* Pods-LifeRando-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LifeRando-frameworks.sh"; sourceTree = "<group>"; };
+		AE38B2283B89F7DCFFCB9AC7EA6BBFD0 /* Pods-LifeRando-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LifeRando-umbrella.h"; sourceTree = "<group>"; };
 		AF1DF35E0E63321E5F772424D9EE48B1 /* CosmosText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosText.swift; path = Cosmos/CosmosText.swift; sourceTree = "<group>"; };
-		B5D3CB2A6852EA1E3C2EBB0EAD5B722F /* Pods-Life Rando Task-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Life Rando Task-frameworks.sh"; sourceTree = "<group>"; };
-		BCA71801DF96986EF585093D13E81591 /* Pods-Life Rando Task-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life Rando Task-Info.plist"; sourceTree = "<group>"; };
 		BCCA06310EBE16A09D01FECACF9824A3 /* CosmosTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosTouch.swift; path = Cosmos/CosmosTouch.swift; sourceTree = "<group>"; };
-		C06F467AD85C8208A821C95CBB821F81 /* Pods-Life Rando TaskTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life Rando TaskTests-Info.plist"; sourceTree = "<group>"; };
-		C08EE47A8CD19D62F1DA42F397D1DF14 /* Pods-Life Rando Task-Life Rando TaskUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Life Rando Task-Life Rando TaskUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DD9DB2AD7FCB72EE188BD0197E2D392A /* Pods-Life Rando Task-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life Rando Task-acknowledgements.plist"; sourceTree = "<group>"; };
-		E1597C4018312CE52D3728FE16C738C6 /* Pods-Life Rando Task-Life Rando TaskUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Life Rando Task-Life Rando TaskUITests-Info.plist"; sourceTree = "<group>"; };
-		E1B2D0399E381792FC33453F99F61BDE /* Pods-Life Rando Task-Life Rando TaskUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Life Rando Task-Life Rando TaskUITests-dummy.m"; sourceTree = "<group>"; };
+		C362F373FA78B18CD69D0D1471372E8A /* Pods-LifeRandoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LifeRandoTests"; path = Pods_LifeRandoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EFD3F770945B6DE9CEB6DFFBAC2C00 /* CosmosLayers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLayers.swift; path = Cosmos/CosmosLayers.swift; sourceTree = "<group>"; };
-		E41A720E6A643463DE16E22FD515D40A /* Pods-Life Rando Task-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Life Rando Task-dummy.m"; sourceTree = "<group>"; };
 		E5B6A643470459BDAF78465CA50A84F4 /* Cosmos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cosmos.modulemap; sourceTree = "<group>"; };
+		E8E7613EA9D012487CF224D5517D2DA7 /* Pods-LifeRando-LifeRandoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LifeRando-LifeRandoUITests-Info.plist"; sourceTree = "<group>"; };
 		EA6E7DAF60D8E62DA62B2CB23D43E16B /* CosmosLocalizedRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CosmosLocalizedRating.swift; path = Cosmos/CosmosLocalizedRating.swift; sourceTree = "<group>"; };
+		F2F6FCFA172496F5601D1AC6B3C4BA4D /* Pods-LifeRando-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LifeRando-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F39EEA0C4D40303552A248CC69340F49 /* Cosmos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cosmos.release.xcconfig; sourceTree = "<group>"; };
 		F5897E31E1EC97ED9A077A7DE06FFED3 /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Cosmos/Helpers/RightToLeft.swift; sourceTree = "<group>"; };
 		FE73B1AFBB1A8CB564DB09EA1BE2942E /* Cosmos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cosmos-umbrella.h"; sourceTree = "<group>"; };
 		FEA6041AC6BE050FAEDA843AE108C4CD /* Cosmos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cosmos-Info.plist"; sourceTree = "<group>"; };
+		FEF9F0251B6ED2A761FB340D42EB56A4 /* Pods-LifeRando-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LifeRando-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C8E0228470D6915B2C180FFE33E1BB4 /* Frameworks */ = {
+		36CBFBD7466568CBE7B36035EEAF16E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAE01C3D19C2F8E51812D008631B12E2 /* Foundation.framework in Frameworks */,
+				B8900213C4D26ABD395BED434E69E4BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525AD074D99F31D32130A44D10AEE528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE039DEB13DC10D301E60F8F1E507A0B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,42 +142,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8755EE135A61AFE84296B1B026851F34 /* Frameworks */ = {
+		C56DB177465449E3451BDB383EBB1384 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2C88760607768CA658C2D7C8DB587ED /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C0C382D1F7CBC7A4A03A1A6327F55E4D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0826F754A1273D9CF1E3CE2E76F29659 /* Foundation.framework in Frameworks */,
+				7C7105E7518775B5B3BDD9B7315734AE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C8C1DA6846CC8B3050CDCBC7586F4B1 /* Pods-Life Rando Task-Life Rando TaskUITests */ = {
-			isa = PBXGroup;
-			children = (
-				18B25DB54F1E4A11FF090B655EE1A0B9 /* Pods-Life Rando Task-Life Rando TaskUITests.modulemap */,
-				C08EE47A8CD19D62F1DA42F397D1DF14 /* Pods-Life Rando Task-Life Rando TaskUITests-acknowledgements.markdown */,
-				9EED7526656269DC58FD0F7AFD7C5356 /* Pods-Life Rando Task-Life Rando TaskUITests-acknowledgements.plist */,
-				E1B2D0399E381792FC33453F99F61BDE /* Pods-Life Rando Task-Life Rando TaskUITests-dummy.m */,
-				1C7200443FD92D3AC1A5B37771D3E596 /* Pods-Life Rando Task-Life Rando TaskUITests-frameworks.sh */,
-				E1597C4018312CE52D3728FE16C738C6 /* Pods-Life Rando Task-Life Rando TaskUITests-Info.plist */,
-				796792BC7F4B60202CD4291A38382D46 /* Pods-Life Rando Task-Life Rando TaskUITests-umbrella.h */,
-				82894D47040E2FE5C61417DF74F4A7AB /* Pods-Life Rando Task-Life Rando TaskUITests.debug.xcconfig */,
-				5706D1B62F2275C162ABCF02D0E05909 /* Pods-Life Rando Task-Life Rando TaskUITests.release.xcconfig */,
-			);
-			name = "Pods-Life Rando Task-Life Rando TaskUITests";
-			path = "Target Support Files/Pods-Life Rando Task-Life Rando TaskUITests";
-			sourceTree = "<group>";
-		};
 		1EEF3410A7BAA1DA5F110A17B8CD6B19 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,21 +161,49 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		558863AE1C92B82D0155DF7F314CA3B4 /* Pods-Life Rando Task */ = {
+		2411BA8AE207A0AF3DBA0B479681CC5D /* Pods-LifeRando-LifeRandoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8D552981EF611347E4A2A91BCA68E175 /* Pods-Life Rando Task.modulemap */,
-				6490F3A4CF98A4CF75D74B09E1BE1A0C /* Pods-Life Rando Task-acknowledgements.markdown */,
-				DD9DB2AD7FCB72EE188BD0197E2D392A /* Pods-Life Rando Task-acknowledgements.plist */,
-				E41A720E6A643463DE16E22FD515D40A /* Pods-Life Rando Task-dummy.m */,
-				B5D3CB2A6852EA1E3C2EBB0EAD5B722F /* Pods-Life Rando Task-frameworks.sh */,
-				BCA71801DF96986EF585093D13E81591 /* Pods-Life Rando Task-Info.plist */,
-				12BE7F4F9CBB3342D3C440FD37798D69 /* Pods-Life Rando Task-umbrella.h */,
-				69A7968DF6440742E70BCDBC0C6A50C4 /* Pods-Life Rando Task.debug.xcconfig */,
-				A9A774E19A6D1B507595D6ECF729BC6F /* Pods-Life Rando Task.release.xcconfig */,
+				8AE2516624ED760E475B2C95A7F82D4B /* Pods-LifeRando-LifeRandoUITests.modulemap */,
+				99F1D018066C14BF2806A8B02838059B /* Pods-LifeRando-LifeRandoUITests-acknowledgements.markdown */,
+				8588042143C32B90A5607DEE91D5D8AA /* Pods-LifeRando-LifeRandoUITests-acknowledgements.plist */,
+				90BC7400299700D379EB54D7FB7BCD56 /* Pods-LifeRando-LifeRandoUITests-dummy.m */,
+				44EE9FAE5A9DD64E6420276CBCD5A696 /* Pods-LifeRando-LifeRandoUITests-frameworks.sh */,
+				E8E7613EA9D012487CF224D5517D2DA7 /* Pods-LifeRando-LifeRandoUITests-Info.plist */,
+				47881B02C77C3FE98AB986BAB50D4E96 /* Pods-LifeRando-LifeRandoUITests-umbrella.h */,
+				64D150BEC28CBAC67ED434742A3D0CA3 /* Pods-LifeRando-LifeRandoUITests.debug.xcconfig */,
+				A2EABBED3436D61EFFD0948ED3538E88 /* Pods-LifeRando-LifeRandoUITests.release.xcconfig */,
 			);
-			name = "Pods-Life Rando Task";
-			path = "Target Support Files/Pods-Life Rando Task";
+			name = "Pods-LifeRando-LifeRandoUITests";
+			path = "Target Support Files/Pods-LifeRando-LifeRandoUITests";
+			sourceTree = "<group>";
+		};
+		3F950396FA031FEA482997AA80E9950E /* Pods-LifeRando */ = {
+			isa = PBXGroup;
+			children = (
+				8F0288D657556D9816980006440BAB7C /* Pods-LifeRando.modulemap */,
+				F2F6FCFA172496F5601D1AC6B3C4BA4D /* Pods-LifeRando-acknowledgements.markdown */,
+				FEF9F0251B6ED2A761FB340D42EB56A4 /* Pods-LifeRando-acknowledgements.plist */,
+				1EE900A914E1A088555E8E411D22EA2A /* Pods-LifeRando-dummy.m */,
+				ABC70917D99183CA38B7DA266761CC09 /* Pods-LifeRando-frameworks.sh */,
+				60DA762656472F93A1538E117C36798F /* Pods-LifeRando-Info.plist */,
+				AE38B2283B89F7DCFFCB9AC7EA6BBFD0 /* Pods-LifeRando-umbrella.h */,
+				0B7FBEB4CF40F35ECB6A45EA6B0CF217 /* Pods-LifeRando.debug.xcconfig */,
+				510DFEFD38248B4150A1D6C91B4F2838 /* Pods-LifeRando.release.xcconfig */,
+			);
+			name = "Pods-LifeRando";
+			path = "Target Support Files/Pods-LifeRando";
+			sourceTree = "<group>";
+		};
+		51C93CA70DBD1469836FD3A3ACF099DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */,
+				143EF0C4933A75B1C69E006D7E9614FC /* Pods-LifeRando */,
+				227211367BB54ACC46A401D302A42A5E /* Pods-LifeRando-LifeRandoUITests */,
+				C362F373FA78B18CD69D0D1471372E8A /* Pods-LifeRandoTests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -201,22 +212,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		76C5D68399D5652AECAA7878E219A6FE /* Pods-Life Rando TaskTests */ = {
-			isa = PBXGroup;
-			children = (
-				47AF29CE16BD52C09C7BA3A1EE2D7F7B /* Pods-Life Rando TaskTests.modulemap */,
-				428210B848C8FCEACCFD6BE226D37F00 /* Pods-Life Rando TaskTests-acknowledgements.markdown */,
-				AC4AFE4DF556A72A6082FDDEB022BD9A /* Pods-Life Rando TaskTests-acknowledgements.plist */,
-				8757F5D501D7E6DD65F2863059E6D3F6 /* Pods-Life Rando TaskTests-dummy.m */,
-				C06F467AD85C8208A821C95CBB821F81 /* Pods-Life Rando TaskTests-Info.plist */,
-				29955BFD4F685A4041BBEAD53636C431 /* Pods-Life Rando TaskTests-umbrella.h */,
-				956B4124C4C437F0FD5849795853A440 /* Pods-Life Rando TaskTests.debug.xcconfig */,
-				14B7E2D37258F8FDDD3B002A76B40873 /* Pods-Life Rando TaskTests.release.xcconfig */,
-			);
-			name = "Pods-Life Rando TaskTests";
-			path = "Target Support Files/Pods-Life Rando TaskTests";
 			sourceTree = "<group>";
 		};
 		79099C1358341EBF13DD1A16CD6E0AFF /* Support Files */ = {
@@ -234,12 +229,12 @@
 			path = "../Target Support Files/Cosmos";
 			sourceTree = "<group>";
 		};
-		91F2D8578821D26F2C958198793F55C0 /* Targets Support Files */ = {
+		8DB7C7BF9E6769B6981865B4FF37F9FC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				558863AE1C92B82D0155DF7F314CA3B4 /* Pods-Life Rando Task */,
-				0C8C1DA6846CC8B3050CDCBC7586F4B1 /* Pods-Life Rando Task-Life Rando TaskUITests */,
-				76C5D68399D5652AECAA7878E219A6FE /* Pods-Life Rando TaskTests */,
+				3F950396FA031FEA482997AA80E9950E /* Pods-LifeRando */,
+				2411BA8AE207A0AF3DBA0B479681CC5D /* Pods-LifeRando-LifeRandoUITests */,
+				D6BF66BBFBE44E085B7D6BBE2112A2C5 /* Pods-LifeRandoTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -250,8 +245,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				1EEF3410A7BAA1DA5F110A17B8CD6B19 /* Pods */,
-				DF3A0E860C53FFA88E29D27BE33E0592 /* Products */,
-				91F2D8578821D26F2C958198793F55C0 /* Targets Support Files */,
+				51C93CA70DBD1469836FD3A3ACF099DA /* Products */,
+				8DB7C7BF9E6769B6981865B4FF37F9FC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -263,15 +258,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF3A0E860C53FFA88E29D27BE33E0592 /* Products */ = {
+		D6BF66BBFBE44E085B7D6BBE2112A2C5 /* Pods-LifeRandoTests */ = {
 			isa = PBXGroup;
 			children = (
-				05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */,
-				345553B9DACAA7305533D9CCB5DE230F /* Pods-Life Rando Task */,
-				7AB447077F19B367305F766F3396F65A /* Pods-Life Rando Task-Life Rando TaskUITests */,
-				0661368446C8933BCC13D65E48432100 /* Pods-Life Rando TaskTests */,
+				2A75CBEE8C853B79A90812093D95DA09 /* Pods-LifeRandoTests.modulemap */,
+				3A72FDC50887B944387018238237BD7C /* Pods-LifeRandoTests-acknowledgements.markdown */,
+				48167B23AF2A238923503CE2E611353E /* Pods-LifeRandoTests-acknowledgements.plist */,
+				7DB3B7027F616DC42ED9A0BDC9528239 /* Pods-LifeRandoTests-dummy.m */,
+				17AFA23A0227E84DB696D85A7F3CFBF4 /* Pods-LifeRandoTests-Info.plist */,
+				4D2596CC388FB7E93F38C1726489BB25 /* Pods-LifeRandoTests-umbrella.h */,
+				062BC3932B0EE13D4618DB67260F15C7 /* Pods-LifeRandoTests.debug.xcconfig */,
+				295BE279C33F78F68CE34D78614A6D30 /* Pods-LifeRandoTests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-LifeRandoTests";
+			path = "Target Support Files/Pods-LifeRandoTests";
 			sourceTree = "<group>";
 		};
 		E8B1D41F350B4C0A5CC6FD8E8873DED5 /* Cosmos */ = {
@@ -301,14 +301,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0746DB7269C49E0E6143B2CBBCDA0132 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69C3DC8B44350B0A4D99749A48853CB3 /* Pods-Life Rando Task-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		40097E5779029102CCD9C3E4EE752DDF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,19 +309,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8427C4AAAE34518FFD6307702C6CE5DF /* Headers */ = {
+		655603094A6173AA94B8A8CD2BE16835 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30EC89B6C4364B2F86F262000BD480C1 /* Pods-Life Rando Task-Life Rando TaskUITests-umbrella.h in Headers */,
+				4086424335B4F73F830386C51A1EB2B0 /* Pods-LifeRando-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BADA8CB65A55ABDD1A666E903A7D062B /* Headers */ = {
+		8AAD1665C495A99630C5751AEF89A0D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11B9E5159A477FD98D0902D08101BA4 /* Pods-Life Rando TaskTests-umbrella.h in Headers */,
+				6E8E2EE8DD0ECA487FDEDD305420B7B7 /* Pods-LifeRandoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E767097CE349DE59D93A60D326FCB9FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35528AC29591BC41593899467ED3C48 /* Pods-LifeRando-LifeRandoUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,61 +354,61 @@
 			productReference = 05C4280976BF93DA8B36818DE2E2A5E0 /* Cosmos */;
 			productType = "com.apple.product-type.framework";
 		};
-		41CDFEDD9446F47B2E0CAA9765B864D9 /* Pods-Life Rando Task */ = {
+		1C4EC3B60B952130D50BE636F09F5A22 /* Pods-LifeRando */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E55763F213701D3489CF6C78EF7C2982 /* Build configuration list for PBXNativeTarget "Pods-Life Rando Task" */;
+			buildConfigurationList = 7D5F59C9C44D20671BE6F2C5D492A60E /* Build configuration list for PBXNativeTarget "Pods-LifeRando" */;
 			buildPhases = (
-				0746DB7269C49E0E6143B2CBBCDA0132 /* Headers */,
-				61765C6593834AABD7D1188E56CB8ADB /* Sources */,
-				C0C382D1F7CBC7A4A03A1A6327F55E4D /* Frameworks */,
-				845B645FB9FD94B9FC155546EC9A5A2A /* Resources */,
+				655603094A6173AA94B8A8CD2BE16835 /* Headers */,
+				8E323A6C4FB9871F9CAB480449C88317 /* Sources */,
+				C56DB177465449E3451BDB383EBB1384 /* Frameworks */,
+				6CCA6FF229AFE2FFE109F44CB47E5D7E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F5FC9CA00567510983587C13753E300C /* PBXTargetDependency */,
+				0D2FE48919B3682D349C057F15714AB4 /* PBXTargetDependency */,
 			);
-			name = "Pods-Life Rando Task";
-			productName = Pods_Life_Rando_Task;
-			productReference = 345553B9DACAA7305533D9CCB5DE230F /* Pods-Life Rando Task */;
+			name = "Pods-LifeRando";
+			productName = Pods_LifeRando;
+			productReference = 143EF0C4933A75B1C69E006D7E9614FC /* Pods-LifeRando */;
 			productType = "com.apple.product-type.framework";
 		};
-		A82B49ADFA850D616CF39A7EDF67DA57 /* Pods-Life Rando Task-Life Rando TaskUITests */ = {
+		26AB0A46A681DE71D0456D6557F24B41 /* Pods-LifeRando-LifeRandoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3586678019E5F69D71FA8BDDAE671606 /* Build configuration list for PBXNativeTarget "Pods-Life Rando Task-Life Rando TaskUITests" */;
+			buildConfigurationList = 82CC0E62D3E3423972565FA85D260711 /* Build configuration list for PBXNativeTarget "Pods-LifeRando-LifeRandoUITests" */;
 			buildPhases = (
-				8427C4AAAE34518FFD6307702C6CE5DF /* Headers */,
-				ADDBB1380F932A970DD6F60D44D4A023 /* Sources */,
-				8755EE135A61AFE84296B1B026851F34 /* Frameworks */,
-				A4C0ECC6002A1A8003684CF91251F387 /* Resources */,
+				E767097CE349DE59D93A60D326FCB9FF /* Headers */,
+				3A66644D97D111CE758403964984B3E5 /* Sources */,
+				525AD074D99F31D32130A44D10AEE528 /* Frameworks */,
+				EFD409904F2681DDDA6B951B3C3EBF62 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				75C7303DD91057C7DBF9EE42BCC509FD /* PBXTargetDependency */,
+				5201EEF2DC83A7F4F223858D4EE169D5 /* PBXTargetDependency */,
 			);
-			name = "Pods-Life Rando Task-Life Rando TaskUITests";
-			productName = Pods_Life_Rando_Task_Life_Rando_TaskUITests;
-			productReference = 7AB447077F19B367305F766F3396F65A /* Pods-Life Rando Task-Life Rando TaskUITests */;
+			name = "Pods-LifeRando-LifeRandoUITests";
+			productName = Pods_LifeRando_LifeRandoUITests;
+			productReference = 227211367BB54ACC46A401D302A42A5E /* Pods-LifeRando-LifeRandoUITests */;
 			productType = "com.apple.product-type.framework";
 		};
-		C7DC100FE59F235CDD89021E02891E4B /* Pods-Life Rando TaskTests */ = {
+		E0107B6D0C9C3EF76A230151303F4954 /* Pods-LifeRandoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E4A07A86CCCCDF8AAF0C5306160DF20 /* Build configuration list for PBXNativeTarget "Pods-Life Rando TaskTests" */;
+			buildConfigurationList = FE859F0148ECD327455351B2822470D8 /* Build configuration list for PBXNativeTarget "Pods-LifeRandoTests" */;
 			buildPhases = (
-				BADA8CB65A55ABDD1A666E903A7D062B /* Headers */,
-				5825F31D5B700F58A99A6C3FC85D8355 /* Sources */,
-				2C8E0228470D6915B2C180FFE33E1BB4 /* Frameworks */,
-				C58DCDF9369D56455ECB772CB7D2E00C /* Resources */,
+				8AAD1665C495A99630C5751AEF89A0D6 /* Headers */,
+				A04BAEF899B794A1355FA1AAE2B907FE /* Sources */,
+				36CBFBD7466568CBE7B36035EEAF16E4 /* Frameworks */,
+				13EA797DE1792B57869CA33EC673E044 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				85DF8E523E687B20B4D71B7427FB08BF /* PBXTargetDependency */,
+				EC1A51ED6902BC799606A3B9440F64D0 /* PBXTargetDependency */,
 			);
-			name = "Pods-Life Rando TaskTests";
-			productName = Pods_Life_Rando_TaskTests;
-			productReference = 0661368446C8933BCC13D65E48432100 /* Pods-Life Rando TaskTests */;
+			name = "Pods-LifeRandoTests";
+			productName = Pods_LifeRandoTests;
+			productReference = C362F373FA78B18CD69D0D1471372E8A /* Pods-LifeRandoTests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -429,34 +429,27 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DF3A0E860C53FFA88E29D27BE33E0592 /* Products */;
+			productRefGroup = 51C93CA70DBD1469836FD3A3ACF099DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */,
-				41CDFEDD9446F47B2E0CAA9765B864D9 /* Pods-Life Rando Task */,
-				A82B49ADFA850D616CF39A7EDF67DA57 /* Pods-Life Rando Task-Life Rando TaskUITests */,
-				C7DC100FE59F235CDD89021E02891E4B /* Pods-Life Rando TaskTests */,
+				1C4EC3B60B952130D50BE636F09F5A22 /* Pods-LifeRando */,
+				26AB0A46A681DE71D0456D6557F24B41 /* Pods-LifeRando-LifeRandoUITests */,
+				E0107B6D0C9C3EF76A230151303F4954 /* Pods-LifeRandoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		845B645FB9FD94B9FC155546EC9A5A2A /* Resources */ = {
+		13EA797DE1792B57869CA33EC673E044 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4C0ECC6002A1A8003684CF91251F387 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C58DCDF9369D56455ECB772CB7D2E00C /* Resources */ = {
+		6CCA6FF229AFE2FFE109F44CB47E5D7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -470,30 +463,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFD409904F2681DDDA6B951B3C3EBF62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5825F31D5B700F58A99A6C3FC85D8355 /* Sources */ = {
+		3A66644D97D111CE758403964984B3E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				405FB7B1302ABC2C5A8F598F89482C33 /* Pods-Life Rando TaskTests-dummy.m in Sources */,
+				7B39CF1DDD289732D01EAD2B8329FCD1 /* Pods-LifeRando-LifeRandoUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61765C6593834AABD7D1188E56CB8ADB /* Sources */ = {
+		8E323A6C4FB9871F9CAB480449C88317 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39ACB2075B7195BF67582724A2949DA5 /* Pods-Life Rando Task-dummy.m in Sources */,
+				707A7BB7361B25DD579B1C9505070EE2 /* Pods-LifeRando-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADDBB1380F932A970DD6F60D44D4A023 /* Sources */ = {
+		A04BAEF899B794A1355FA1AAE2B907FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C16DC3ED24DA3468E866052CA85DF433 /* Pods-Life Rando Task-Life Rando TaskUITests-dummy.m in Sources */,
+				0263DA738817B46DD5A238589E29058C /* Pods-LifeRandoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,213 +523,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		75C7303DD91057C7DBF9EE42BCC509FD /* PBXTargetDependency */ = {
+		0D2FE48919B3682D349C057F15714AB4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Cosmos;
 			target = 00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */;
-			targetProxy = 79F40E479465ED6D99B7995DD37A9DB2 /* PBXContainerItemProxy */;
+			targetProxy = B8B1BC5F9B0B4658762FDDD8713853BD /* PBXContainerItemProxy */;
 		};
-		85DF8E523E687B20B4D71B7427FB08BF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Life Rando Task";
-			target = 41CDFEDD9446F47B2E0CAA9765B864D9 /* Pods-Life Rando Task */;
-			targetProxy = 68BB1E991BBE59801701BE502CA27DB7 /* PBXContainerItemProxy */;
-		};
-		F5FC9CA00567510983587C13753E300C /* PBXTargetDependency */ = {
+		5201EEF2DC83A7F4F223858D4EE169D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Cosmos;
 			target = 00F31BD5217A20974B5E9AAC6256D98E /* Cosmos */;
-			targetProxy = B2EEA06B9E979A6C41F981C6CC9F5A7D /* PBXContainerItemProxy */;
+			targetProxy = 2A239CB691A2C201CDD8CA547BDB4A05 /* PBXContainerItemProxy */;
+		};
+		EC1A51ED6902BC799606A3B9440F64D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LifeRando";
+			target = 1C4EC3B60B952130D50BE636F09F5A22 /* Pods-LifeRando */;
+			targetProxy = 591D501465D1B26CD2D5584A5E2A1768 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C2FDF482488A257704830BE8CF5852E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5706D1B62F2275C162ABCF02D0E05909 /* Pods-Life Rando Task-Life Rando TaskUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Life Rando Task-Life Rando TaskUITests/Pods-Life Rando Task-Life Rando TaskUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Life Rando Task-Life Rando TaskUITests/Pods-Life Rando Task-Life Rando TaskUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3C8F22E96A7EB5A48EC2085BF56142A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14B7E2D37258F8FDDD3B002A76B40873 /* Pods-Life Rando TaskTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Life Rando TaskTests/Pods-Life Rando TaskTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Life Rando TaskTests/Pods-Life Rando TaskTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5E481C0E540BCC2B97D6C2DB52184217 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 956B4124C4C437F0FD5849795853A440 /* Pods-Life Rando TaskTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Life Rando TaskTests/Pods-Life Rando TaskTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Life Rando TaskTests/Pods-Life Rando TaskTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6C5A27137222478D1C9F0FAC54120FB8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9A774E19A6D1B507595D6ECF729BC6F /* Pods-Life Rando Task.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Life Rando Task/Pods-Life Rando Task-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Life Rando Task/Pods-Life Rando Task.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6EC69149E28F5E27C4706FFEAF8B58F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E29BC44317FF962374F2AB1B47271F3 /* Cosmos.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
-				PRODUCT_MODULE_NAME = Cosmos;
-				PRODUCT_NAME = Cosmos;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -782,7 +597,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -795,7 +610,45 @@
 			};
 			name = Debug;
 		};
-		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+		0E94736C9FBBDD8552E57230EB908A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2EABBED3436D61EFFD0948ED3538E88 /* Pods-LifeRando-LifeRandoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LifeRando-LifeRandoUITests/Pods-LifeRando-LifeRandoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LifeRando-LifeRandoUITests/Pods-LifeRando-LifeRandoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -845,7 +698,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -856,6 +709,152 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		5E2CE2821E8CE37E63F269256DA547AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D150BEC28CBAC67ED434742A3D0CA3 /* Pods-LifeRando-LifeRandoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LifeRando-LifeRandoUITests/Pods-LifeRando-LifeRandoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LifeRando-LifeRandoUITests/Pods-LifeRando-LifeRandoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DA62D90AC803A8F245D80615CEE83A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295BE279C33F78F68CE34D78614A6D30 /* Pods-LifeRandoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LifeRandoTests/Pods-LifeRandoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LifeRandoTests/Pods-LifeRandoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6EC69149E28F5E27C4706FFEAF8B58F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E29BC44317FF962374F2AB1B47271F3 /* Cosmos.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cosmos/Cosmos-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cosmos/Cosmos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cosmos/Cosmos.modulemap";
+				PRODUCT_MODULE_NAME = Cosmos;
+				PRODUCT_NAME = Cosmos;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7630D3649CA7213AF29431281CD06EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062BC3932B0EE13D4618DB67260F15C7 /* Pods-LifeRandoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LifeRandoTests/Pods-LifeRandoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LifeRandoTests/Pods-LifeRandoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		C78C1BA85703BCE69743B7C85B847990 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -892,9 +891,9 @@
 			};
 			name = Release;
 		};
-		C8E4B70B5E102A10D643AFCC467816AF /* Debug */ = {
+		E26B62F44CB99699FF344C51DDC0BBA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69A7968DF6440742E70BCDBC0C6A50C4 /* Pods-Life Rando Task.debug.xcconfig */;
+			baseConfigurationReference = 510DFEFD38248B4150A1D6C91B4F2838 /* Pods-LifeRando.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -906,16 +905,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Life Rando Task/Pods-Life Rando Task-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LifeRando/Pods-LifeRando-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Life Rando Task/Pods-Life Rando Task.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LifeRando/Pods-LifeRando.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -924,14 +923,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		EDEE568BB21F8073B5F5864F5DC497E9 /* Debug */ = {
+		FE7E855172B6255CFFFC769EE3238638 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82894D47040E2FE5C61417DF74F4A7AB /* Pods-Life Rando Task-Life Rando TaskUITests.debug.xcconfig */;
+			baseConfigurationReference = 0B7FBEB4CF40F35ECB6A45EA6B0CF217 /* Pods-LifeRando.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -943,16 +943,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Life Rando Task-Life Rando TaskUITests/Pods-Life Rando Task-Life Rando TaskUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LifeRando/Pods-LifeRando-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Life Rando Task-Life Rando TaskUITests/Pods-Life Rando Task-Life Rando TaskUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LifeRando/Pods-LifeRando.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -969,29 +969,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3586678019E5F69D71FA8BDDAE671606 /* Build configuration list for PBXNativeTarget "Pods-Life Rando Task-Life Rando TaskUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EDEE568BB21F8073B5F5864F5DC497E9 /* Debug */,
-				1C2FDF482488A257704830BE8CF5852E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
-				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E4A07A86CCCCDF8AAF0C5306160DF20 /* Build configuration list for PBXNativeTarget "Pods-Life Rando TaskTests" */ = {
+		7D5F59C9C44D20671BE6F2C5D492A60E /* Build configuration list for PBXNativeTarget "Pods-LifeRando" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E481C0E540BCC2B97D6C2DB52184217 /* Debug */,
-				3C8F22E96A7EB5A48EC2085BF56142A0 /* Release */,
+				FE7E855172B6255CFFFC769EE3238638 /* Debug */,
+				E26B62F44CB99699FF344C51DDC0BBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CC0E62D3E3423972565FA85D260711 /* Build configuration list for PBXNativeTarget "Pods-LifeRando-LifeRandoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2CE2821E8CE37E63F269256DA547AE /* Debug */,
+				0E94736C9FBBDD8552E57230EB908A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1005,11 +1005,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E55763F213701D3489CF6C78EF7C2982 /* Build configuration list for PBXNativeTarget "Pods-Life Rando Task" */ = {
+		FE859F0148ECD327455351B2822470D8 /* Build configuration list for PBXNativeTarget "Pods-LifeRandoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8E4B70B5E102A10D643AFCC467816AF /* Debug */,
-				6C5A27137222478D1C9F0FAC54120FB8 /* Release */,
+				7630D3649CA7213AF29431281CD06EE3 /* Debug */,
+				6DA62D90AC803A8F245D80615CEE83A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
